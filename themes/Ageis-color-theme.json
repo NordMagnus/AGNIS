@@ -65,7 +65,7 @@
 		"activityBar.background": "#171714",
 		"activityBarBadge.background": "#328897",
 		"activityBarBadge.foreground": "#fff",
-		"activityBar.foreground": "#E6E6E3",
+		"activityBar.foreground": "#D0D2CC",
 		"activityBar.inactiveForeground": "#6B6E61",
 
 		/* Title Bar, Tabs and Editor Groups */
