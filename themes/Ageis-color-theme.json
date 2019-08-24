@@ -12,9 +12,9 @@
 		"widget.shadow": "#121311",
 		"descriptionForeground": "#D0D2CC",
 		"selection.background": "#328897",
-		"list.activeSelectionBackground": "#6B6E61",
+		"list.activeSelectionBackground": "#42443C",
 		"list.activeSelectionForeground": "#E6E6E3",
-		"list.inactiveSelectionBackground": "#42443C",
+		"list.inactiveSelectionBackground": "#33352E",
 		"list.inactiveSelectionForeground": "#D0D2CC",
 		"list.focusBackground": "#6B6E61",
 		"list.focusForeground": "#E6E6E3",
@@ -68,8 +68,13 @@
 		"tab.inactiveBackground": "#21221e",
 		"tab.inactiveForeground": "#5d5e56",
 		"breadcrumb.background": "#33352E", 
+		"breadcrumb.activeSelectionForeground": "#FFD788",
+		"breadcrumb.foreground": "#A2A599",
+		"breadcrumb.focusForeground": "#E6E6E3",
+		"breadcrumbPicker.background": "#33352E",
 		"tab.border": "#21221e",
 		"tab.activeBorderTop": "#33352E",
+		"tab.hoverBackground": "#42443C",
 
 		/* Dialogs and shite */
 		"input.background": "#21221e",
@@ -162,12 +167,6 @@
 		"editor.findMatchHighlightBorder": "#49182B",
 		"editorOverviewRuler.findMatchForeground": "#CD2365",
 
-		/* Oops! Errors and Warnings */
-		"editorError.foreground": "#ff4010",
-		"editorWarning.foreground": "#ef8020",
-		"editorHint.foreground": "#1070c0",
-		"editorInfo.foreground": "#70c010",
-
 		/* Mr Terminal and Mrs Panel */
 		"panel.background": "#171714",
 		"terminal.background": "#171714",
@@ -210,6 +209,34 @@
 		"editor.snippetFinalTabstopHighlightBorder": "#CD2365",
 		"editor.snippetTabstopHighlightBackground": "#3B3425",
 		"editor.snippetTabstopHighlightBorder": "#CD9523",
+
+		/* Settings for the picky */
+		"settings.textInputBackground": "#33352E",
+		"settings.checkboxBackground": "#33352E",
+		"settings.checkboxBorder": "#42443C",
+		"settings.checkboxForeground": "#D0D2CC",
+		"settings.dropdownBackground": "#33352E",
+		"settings.dropdownBorder": "#42443C",
+		"settings.dropdownForeground": "#D0D2CC",
+		"settings.headerForeground": "#B8A384",
+		"settings.modifiedItemIndicator": "#852C4F",
+		"settings.numberInputBackground": "#33352E",
+		"settings.numberInputBorder": "#42443C",
+		"settings.numberInputForeground": "#D0D2CC",
+		"settings.textInputBorder": "#42443C",
+		"settings.textInputForeground": "#D0D2CC",
+
+		/* Oops! Errors and Warnings */
+		"editorError.foreground": "#ff4010",
+		"editorWarning.foreground": "#ef8020",
+		"editorHint.foreground": "#1070c0",
+		"editorInfo.foreground": "#1070c0",
+		"editorGroupHeader.tabsBorder": "#21221e",
+		"editorMarkerNavigationWarning.background": "#ef8020",
+		"editorMarkerNavigation.background": "#42443C",
+		"editorMarkerNavigationError.background": "#ff4010",
+		"editorMarkerNavigationInfo.background": "#1070c0",
+
 
 	},
 
