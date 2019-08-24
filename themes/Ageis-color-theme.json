@@ -45,6 +45,7 @@
 		/* Status Bar */
 		"statusBar.background": "#171714",
 		"statusBar.noFolderBackground": "#25646F",
+		"statusBar.debuggingBackground": "#852C4F",
 		"statusBar.foreground": "#E6E6E3",
 		"statusBarItem.hoverBackground": "#42443C",
 		"statusBarItem.prominentBackground": "#184948",
@@ -118,7 +119,7 @@
 		"editor.hoverHighlightBackground": "#184149",
 		"editorHoverWidget.background": "#42443C",
 		"editorHoverWidget.border": "#6B6E61",
-		"editorGroup.border": "#21221e",
+		"editorGroup.border": "#33352E",
 		"editorGroup.dropBackground": "#1d1d1a",
 		"editorCursor.background": "#fff",
 
@@ -169,6 +170,7 @@
 
 		/* Mr Terminal and Mrs Panel */
 		"panel.background": "#171714",
+		"panel.border": "#171714",
 		"terminal.background": "#171714",
 		"terminal.foreground": "#D0D2CC",
 		"terminal.ansiBlack": "#000",
@@ -231,13 +233,15 @@
 		"editorWarning.foreground": "#ef8020",
 		"editorHint.foreground": "#1070c0",
 		"editorInfo.foreground": "#1070c0",
-		"editorGroupHeader.tabsBorder": "#21221e",
+		"editorGroupHeader.tabsBorder": "#33352E",
 		"editorMarkerNavigationWarning.background": "#ef8020",
 		"editorMarkerNavigation.background": "#42443C",
 		"editorMarkerNavigationError.background": "#ff4010",
 		"editorMarkerNavigationInfo.background": "#1070c0",
 
-
+		/* Debugging toolbar */
+		"debugToolBar.background": "#42443C",
+		"debugToolBar.border": "#42443C",
 	},
 
 	"tokenColors": [
