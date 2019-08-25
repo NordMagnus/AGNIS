@@ -122,6 +122,7 @@
 		"editorGroup.border": "#21221e",
 		"editorGroup.dropBackground": "#1d1d1a",
 		"editorCursor.background": "#fff",
+		"editorHint.border": "#6B6E61",
 
 		"editor.wordHighlightBackground": "#484848",
 		"editor.wordHighlightStrongBackground": "#484848",
