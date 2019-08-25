@@ -147,8 +147,8 @@
 
 		/* Make a difference */
 		"diffEditor.border": "#A2A599",
-		"diffEditor.insertedTextBackground": "#c0f08020",
-		"diffEditor.removedTextBackground": "#ff400020",
+		"diffEditor.insertedTextBackground": "#82c52b48",
+		"diffEditor.removedTextBackground": "#ff400048",
 
 		"quickInput.background": "#292A25",
 		"quickInput.foreground": "#A2A599",
