@@ -122,7 +122,6 @@
 		"editorGroup.border": "#21221e",
 		"editorGroup.dropBackground": "#1d1d1a",
 		"editorCursor.background": "#fff",
-		"editorHint.border": "#6B6E61",
 
 		"editor.wordHighlightBackground": "#484848",
 		"editor.wordHighlightStrongBackground": "#484848",
@@ -139,6 +138,13 @@
 		"editorWidget.foreground": "#A2A599",
 		"editorWidget.resizeBorder": "#6B6E61",
 		
+		/* Editor Suggest Widget */
+		"editorSuggestWidget.background": "#33352E",
+		"editorSuggestWidget.border": "#42443C", 
+		"editorSuggestWidget.foreground": "#D0D2CC",
+		"editorSuggestWidget.highlightForeground": "#fff",
+		"editorSuggestWidget.selectedBackground": "#42443C",
+
 		/* Make a difference */
 		"diffEditor.border": "#A2A599",
 		"diffEditor.insertedTextBackground": "#c0f08020",
