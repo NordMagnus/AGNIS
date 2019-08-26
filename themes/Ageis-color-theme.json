@@ -104,13 +104,13 @@
 		"scrollbar.shadow": "#000",
 
 		/* Editor */
-		"editor.background": "#21221e",
+		"editor.background": "#272824",
 		"editor.foreground": "#eeffff",
 		"editorPane.background": "#171714",
 		"editor.lineHighlightBackground": "#30312b", 
 		"editorCursor.foreground": "#ffffff",
-		"editorLineNumber.foreground": "#3F4139",
-		"editor.selectionBackground": "#606060",
+		"editorLineNumber.foreground": "#42443C",
+		"editor.selectionBackground": "#505050",
 		"editor.inactiveSelectionBackground": "#505050",
 		"editor.selectionHighlightBackground": "#383838",
 		"editorIndentGuide.activeBackground": "#6B6E61",
@@ -129,7 +129,7 @@
 
 		"editor.rangeHighlightBackground": "#4e553940",
 		"editorWhitespace.foreground": "#42443C",
-		"editorRuler.foreground": "#292A25",
+		"editorRuler.foreground": "#30322C",
 		"editorCodeLens.foreground": "#42443C", 
 		
 		/* Editor Widget */ 
@@ -150,20 +150,20 @@
 		"diffEditor.insertedTextBackground": "#82c52b48",
 		"diffEditor.removedTextBackground": "#ff400048",
 
-		"quickInput.background": "#292A25",
+		"quickInput.background": "#30322C",
 		"quickInput.foreground": "#A2A599",
 
 		/* Peek View Editor */
 		"peekView.border": "#6B6E61",
-		"peekViewEditor.background": "#292A25",
+		"peekViewEditor.background": "#30322C",
 		"peekViewEditor.matchHighlightBackground": "#6F2542",
 		"peekViewEditor.matchHighlightBorder": "#6F2542",
-		"peekViewEditorGutter.background": "#292A25",
+		"peekViewEditorGutter.background": "#30322C",
 		"peekViewTitle.background": "#33352E",
 		"peekViewResult.background": "#1D1D1A",
 		"peekViewResult.matchHighlightBackground": "#6F2542",
 		"peekViewResult.lineForeground": "#D0D2CC",
-		"peekViewResult.selectionBackground": "#292a25",
+		"peekViewResult.selectionBackground": "#30322C",
 		"peekViewResult.selectionForeground": "#D0D2CC",
 		"peekViewResult.fileForeground": "#D0D2CC",
 
@@ -393,48 +393,57 @@
 			}
 		},
 
+		{
+			"name": "Annotations", 
+			"scope": [
+				"storage.type.annotation"
+			],
+			"settings": {
+				"foreground": "#779531",
+			}
+		},
+		
 		//#endregion Keywords and Operators
 
 		//#region Functions
 
-		{
+		{  
 			"name": "Function Definition", 
 			"scope": [
-				"meta.definition.method", 
-				"entity.name.function",
+				"meta.definition.method",
 			],
 			"settings": {
 				"foreground": "#23B5CF",
+				"fontStyle": "bold"
 			}
 		},
-
+		
 		{
 			"name": "Function Definition",
 			"scope": [
-				"meta.definition.method",
 				"entity.name.type.class",
+				"meta.function-call",
+				"meta.method-call"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#23B5CF",
+				"fontStyle": ""
 			}
 		},
 
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#E6E6E3"
+				"foreground": "#fff"
 			}
 		},
 		
 		{
 			"name": "Special Method",
 			"scope": [
-				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method",
-				"variable.other.object",
 				"support.class.builtin",
 				"entity.name.type"
 			],
@@ -452,21 +461,23 @@
 			"scope": [
 				"punctuation",
 				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
+				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"meta.brace.square",
 				"meta.brace.round",
 				"meta.block variable.other",
 				"variable",
-				"variable.parameter",
+				"variable.other.object",
 				"variable.other.property",
-				"variable.other.constant.property"
+				"variable.other.constant.property",
+				"meta.method.body"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#D0D2CC",
+				"fontStyle": ""
 			}
 		},
 
@@ -517,7 +528,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
@@ -527,7 +537,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFC34A"
+				"foreground": "#23B5CF"
 			}
 		},
 
