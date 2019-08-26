@@ -321,7 +321,7 @@
 				"keyword.other",
 			],
 			"settings": {
-				"foreground": "#cfb071"
+				"foreground": "#FFC34A"
 			}
 		},
 
@@ -374,6 +374,19 @@
 			],
 			"settings": {
 				"foreground": "#779531",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"scope": [
+				"storage.modifier.import.groovy",
+				"storage.modifier.package.groovy",
+				"storage.modifier.groovy"
+			],
+			"settings": {
+				"foreground": "#CD9523",
+				"fontStyle": ""
 			}
 		},
 
@@ -738,7 +751,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#CD9523"
+				"foreground": "#D0D2CC"
 			}
 		},
 		{
@@ -747,7 +760,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -756,7 +769,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -765,7 +778,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -774,7 +787,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -783,7 +796,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -792,7 +805,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 		{
@@ -801,7 +814,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#D0D2CC"
+				"foreground": "#A2A599"
 			}
 		},
 
