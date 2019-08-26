@@ -372,7 +372,6 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"storage.type",
-				"storage.modifier",
 				"support.variable.property",
 				"constant.other.color",
 				"meta.tag",
@@ -382,6 +381,17 @@
 				"fontStyle": ""
 			}
 		},
+
+		{
+			"scope": [
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#cd9523",
+				"fontStyle": "italic"
+			}
+		},
+		
 		{
 			"name": "Operators",
 			"scope": [
@@ -399,7 +409,8 @@
 				"storage.type.annotation"
 			],
 			"settings": {
-				"foreground": "#779531",
+				"foreground": "#CD2365",
+				"fontStyle": "italic"
 			}
 		},
 		
