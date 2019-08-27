@@ -273,20 +273,27 @@
 			"scope": [
 				"comment.block.documentation punctuation.definition.comment",
 				"comment.block.documentation",
+				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
 				"foreground": "#6B6E61",
 				"fontStyle": ""
 			}
 		},
-
+		
+		{
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 		{
 			"name": "Doc comment parameter",
 			"scope": [
+				"punctuation.definition.block.tag.jsdoc",
 				"entity.name.type.instance.jsdoc",
 				"punctuation.definition.bracket.curly.begin.jsdoc",
 				"punctuation.definition.bracket.curly.end.jsdoc",
-				"punctuation.definition.block.tag.jsdoc",
 				"storage.type.class.jsdoc",
 			],
 			"settings": {
@@ -433,8 +440,10 @@
 			"name": "Function Definition", 
 			"scope": [
 				"meta.definition.method",
+				"meta.definition.class"
 			],
 			"settings": {
+
 				"foreground": "#23B5CF",
 				"fontStyle": "bold"
 			}
@@ -443,11 +452,11 @@
 		{
 			"name": "Function Calls",
 			"scope": [
-				"entity.name.type.class",
+				// "support.function",
 				"meta.function-call",
 				"meta.method-call",
-				"support.other.variable",
-				"string.other.link",
+				// "support.other.variable",
+				// "string.other.link",
 			],
 			"settings": {
 				"foreground": "#23B5CF",
@@ -458,7 +467,8 @@
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#fff"
+				"foreground": "#fff",
+				"fontStyle": ""
 			}
 		},
 		
@@ -466,10 +476,8 @@
 			"name": "Special Method",
 			"scope": [
 				"variable.function",
-				"support.function",
 				"keyword.other.special-method",
-				"support.class.builtin",
-				"entity.name.type",
+				// "support.class.builtin",
 				"meta.array.literal",
 			],
 			"settings": {
@@ -550,7 +558,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#23B5CF"
+				"foreground": "#23B5CF",
+				"fontStyle": "italic"
 			}
 		},
 
