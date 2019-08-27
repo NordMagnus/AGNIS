@@ -25,7 +25,6 @@
 		"button.background": "#25646F",
 		"button.hoverBackground": "#328897",
 		"button.foreground": "#E6E6E3",
-		
 
 		/* Drop down gorgeous */
 		"dropdown.listBackground": "#42443C",
@@ -317,11 +316,9 @@
 				"support.constant",
 				"constant.character", 
 				"constant.escape",
-				"keyword.other.unit",
-				"keyword.other",
 			],
 			"settings": {
-				"foreground": "#FFC34A"
+				"foreground": "#9BCF23"
 			}
 		},
 
@@ -332,7 +329,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#f04400"
 			}
 		},
 
@@ -341,6 +338,8 @@
 		{
 			"name": "Control keywords",
 			"scope": [
+				"keyword.other.unit",
+				"keyword.other",
 				"keyword.control",
 				"keyword",
 				"keyword.other.template",
@@ -349,6 +348,7 @@
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.new",
 				"keyword.operator.combinator.css",
+				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#FFC34A",
@@ -360,7 +360,6 @@
 			"name": "Control flow keywords",
 			"scope": [
 				"keyword.control.flow",
-				"variable.language.this",
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -396,6 +395,7 @@
 				"storage.type",
 				"support.variable.property",
 				"meta.tag",
+				"storage.modifier",
 			],
 			"settings": {
 				"foreground": "#CD9523",
@@ -403,16 +403,6 @@
 			}
 		},
 
-		{
-			"scope": [
-				"storage.modifier",
-			],
-			"settings": {
-				"foreground": "#cd9523",
-				"fontStyle": "italic"
-			}
-		},
-		
 		{
 			"name": "Operators",
 			"scope": [
@@ -689,7 +679,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#9BCF23",
+				"foreground": "#D4FF70",
 			}
 		},
 		{
