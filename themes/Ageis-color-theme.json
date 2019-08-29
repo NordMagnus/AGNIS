@@ -549,7 +549,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
 				"meta.use.php",
@@ -569,9 +568,11 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#B2CCD6",
+				"fontStyle": ""
 			}
 		},
+
 		{
 			"name": "CSS Class and Support",
 			"scope": [
