@@ -1,8 +1,9 @@
 {
     "name": "ageis",
-    "displayName": "Ageis",
-    "description": "A gloomy evening in Sweden",
+    "displayName": "AGEIS",
+    "description": "A Gloomy Evening in Sweden",
     "version": "0.0.1",
+    "publisher": "MagnusNord",
     "engines": {
         "vscode": "^1.37.0"
     },
