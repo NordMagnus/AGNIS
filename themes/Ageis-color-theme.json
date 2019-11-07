@@ -66,7 +66,7 @@
 		"tab.activeBorder": "#33352E",
 		"tab.activeForeground": "#FFCF6E",
 		"tab.inactiveBackground": "#21221e",
-		"tab.inactiveForeground": "#5d5e56",
+		"tab.inactiveForeground": "#6B6E61",
 		"breadcrumb.background": "#33352E", 
 		"breadcrumb.activeSelectionForeground": "#FFD788",
 		"breadcrumb.foreground": "#A2A599",
@@ -122,7 +122,8 @@
 		"editorGroup.dropBackground": "#1d1d1a",
 		"editorCursor.background": "#fff",
 
-		"editor.wordHighlightBackground": "#484848",
+		"editor.wordHighlightBackground": "#30322C00",
+		"editor.wordHighlightBorder": "#4b4e46",
 		"editor.wordHighlightStrongBackground": "#484848",
 		"editor.wordHighlightStrongBorder": "#a0a0a0",
 
