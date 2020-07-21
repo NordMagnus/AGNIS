@@ -1,15 +1,17 @@
 {
     "name": "agnis",
     "displayName": "AGNIS",
-    "description": "A Gloomy Night in Sweden",
-    "version": "0.0.1",
+    "description": "A theme from up north, created A Gloomy Night In Sweden (AGNIS).",
+    "version": "0.1.0",
     "publisher": "MagnusNord",
     "engines": {
         "vscode": "^1.37.0"
     },
+    "license": "SEE LICENSE IN LICENSE.txt",
     "categories": [
         "Themes"
     ],
+    "icon": "images/agnis-icon.png",
     "contributes": {
         "themes": [
             {
@@ -22,5 +24,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/NordMagnus/AGNIS"
+    },
+    "bugs": {
+        "url": "https://github.com/NordMagnus/AGNIS/issues"
     }
 }
