@@ -4,6 +4,9 @@
     "description": "A theme from up north, created A Gloomy Night In Sweden (AGNIS).",
     "version": "0.1.0",
     "publisher": "MagnusNord",
+    "author": {
+        "name": "Magnus Nord"
+    },
     "engines": {
         "vscode": "^1.37.0"
     },
@@ -11,7 +14,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "images/agnis-icon.png",
+    "icon": "images/agnis-logo.png",
     "contributes": {
         "themes": [
             {
