@@ -8,7 +8,7 @@ A theme from up north, created A Gloomy Night In Sweden (AGNIS).
 
 ## Changelog
 
-[CHANGELOG.md](https://code.visualstudio.com/)
+[CHANGELOG.md](./CHANGELOG.md)
 
 ## Contributing
 
