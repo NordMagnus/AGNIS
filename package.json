@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Agnis",
+                "label": "AGNIS",
                 "uiTheme": "vs-dark",
                 "path": "./themes/agnis-color-theme.json"
             }
