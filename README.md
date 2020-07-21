@@ -29,18 +29,19 @@ clarification purposes is possible.
 
 ## Screenshots
 
-### JavaScript and Hack Mono
+### JavaScript with Hack Mono
 
-![Preview](images/screenshot1.png)
+![Preview](images/screenshot-js-hack.png)
 
-### Markdown
+### Markdown with Hack Mono
 
-TBD
+![Screenshot Markdown](images/screenshot-markdown.png)
 
-### TypeScript and Victor Mono
+### TypeScript with Victor Mono
 
-TBD
+![Screenshot Markdown](images/screenshot-ts-victor.png)
 
-### Docker File and Fira Code
+### Docker File with Fira Code
 
-TBD
+![Screenshot Markdown](images/screenshot-docker-fira.png)
+
