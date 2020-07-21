@@ -1,7 +1,7 @@
 {
-    "name": "ageis",
-    "displayName": "AGEIS",
-    "description": "A Gloomy Evening in Sweden",
+    "name": "agnis",
+    "displayName": "AGNIS",
+    "description": "A Gloomy Night in Sweden",
     "version": "0.0.1",
     "publisher": "MagnusNord",
     "engines": {
@@ -13,10 +13,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Ageis",
+                "label": "Agnis",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Ageis-color-theme.json"
+                "path": "./themes/agnis-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NordMagnus/AGNIS"
     }
 }
