@@ -13,7 +13,7 @@ A theme from up north, created A Gloomy Night In Sweden (AGNIS).
 ## Contributing
 
 Found something weird? Please report [here](). Please provide a screenshot for
-clarification purposes is possible.
+clarification purposes if possible.
 
 [GitHub repository](https://github.com/NordMagnus/AGNIS)
 
