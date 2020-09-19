@@ -130,7 +130,7 @@
 		"editor.rangeHighlightBackground": "#4e553940",
 		"editorWhitespace.foreground": "#42443C",
 		"editorRuler.foreground": "#30322C",
-		"editorCodeLens.foreground": "#42443C", 
+		"editorCodeLens.foreground": "#4c4e44", 
 		
 		/* Editor Widget */ 
 		"editorWidget.background": "#33352E",
@@ -295,10 +295,11 @@
 				"entity.name.type.instance.jsdoc",
 				"punctuation.definition.bracket.curly.begin.jsdoc",
 				"punctuation.definition.bracket.curly.end.jsdoc",
-				"storage.type.class.jsdoc",
+        "storage.type.class.jsdoc",
+        "support.type.builtin.primitive.jsdoc",
 			],
 			"settings": {
-				"foreground": "#A2A599"
+        "foreground": "#A2A599"
 			}
 		},
 
@@ -356,7 +357,6 @@
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.new",
 				"keyword.operator.combinator.css",
-				"variable.language.this",
 			],
 			"settings": {
 				"foreground": "#FFC34A",
@@ -364,6 +364,27 @@
 			}
 		},		
 
+    {
+      "name": "This",
+      "scope": [
+				"variable.language.this",
+        "variable.language.self.js",
+      ],
+			"settings": {
+				"foreground": "#FFC34A",
+				"fontStyle": "italic"
+			}
+    },
+
+    {
+      "name": "Excepted keywords",
+      "scope": [
+        "keyword.control.module",
+      ],
+      "settings": {
+        "foreground": "#a8aaa5",
+      }
+    },
 		{
 			"name": "Control flow keywords",
 			"scope": [
@@ -407,7 +428,7 @@
 			],
 			"settings": {
 				"foreground": "#CD9523",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 
@@ -440,12 +461,26 @@
 		{  
 			"name": "Function Definition", 
 			"scope": [
-				"meta.definition.method",
-				"meta.definition.class"
-			],
+        "entity.name.class",
+      ],
 			"settings": {
-
-				"foreground": "#23B5CF",
+				"foreground": "#fff",
+				"fontStyle": "bold"
+			}
+		},
+		
+		{  
+			"name": "Function Definition", 
+			"scope": [
+				"meta.definition.method",
+        "meta.definition.class",
+        "meta.definition.function",
+        "entity.name.function.method",
+        "meta.name.arrow",
+        "entity.name.function.accessor",
+      ],
+			"settings": {
+				"foreground": "#bbb",
 				"fontStyle": "bold"
 			}
 		},
@@ -486,6 +521,17 @@
 			}
 		},
 
+		{
+			"name": "Buildin Classes",
+			"scope": [
+				"support.class.builtin",
+			],
+			"settings": {
+				"foreground": "#23B5CF",
+        "fontStyle": "bold",
+			}
+		},
+
 		//#endregion Functions
 
 		//#region Variables and Strings
@@ -507,16 +553,33 @@
 				"variable.other.object",
 				"variable.other.property",
 				"variable.other.constant.property",
-				"meta.method.body"
+        "meta.method.body",
+        "JSXNested",
+        "text.html.derivative",
 			],
 			"settings": {
-				"foreground": "#D0D2CC",
+        "foreground": "#D0D2CC",
 				"fontStyle": ""
 			}
 		},
 
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "string.quoted.template.js",
+        "string.quoted.double.js",
+        "string.quasi.js",
+      ],
+      "settings": {
+        "foreground":"#ddcaae",
+      }
+    },
+
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"string",
 				"punctuation.definition.string.begin",
@@ -526,14 +589,68 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "meta.group.braces.curly constant.other.object.key.js",
+        "variable.other.readwrite.shorthandpropertyname.js",
 			],
 			"settings": {
-				"foreground": "#b8a384",
+				"foreground": "#a38f70",
 			}
 		},
 		
 		//#endregion Variables and Strings
+
+    //#region JSX
+    
+    {
+      "name": "JSX HTML tag",
+      "scope": [
+        "entity.name.tag.open.jsx",
+        "entity.name.tag.close.jsx",
+      ],
+      "settings": {
+        // "foreground": "#23B5CF",
+				// "foreground": "#6FBD91",
+				"foreground": "#B1C230",
+      }
+    },
+
+
+    {
+      "name": "JSX Component instance",
+      "scope": [
+        "support.class.component.open.jsx",
+        "support.class.component.close.jsx",
+      ],
+      "settings": {
+        // "foreground": "#23B5CF",
+				// "foreground": "#BEFADB",
+				"foreground": "#D3FF78",
+      }
+    },
+
+    {
+      "name": "JSX Tag Attributes",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+      ],
+      "settings": {
+        // "foreground": "#23B5CF",
+				"foreground": "#A8AAA5",
+      }
+    },
+
+    {
+			"name": "JSX Nested",
+			"scope": [
+        "JSXNested",
+			],
+			"settings": {
+        "foreground": "#D0D2CC",
+				"fontStyle": ""
+			}
+		},
+
+    //#endregion JSX
 
 		{
 			"name": "Tag",
@@ -559,7 +676,6 @@
 			],
 			"settings": {
 				"foreground": "#23B5CF",
-				"fontStyle": "italic"
 			}
 		},
 
@@ -570,6 +686,28 @@
 			],
 			"settings": {
 				"foreground": "#B2CCD6",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Console statements",
+			"scope": [
+				"support.type.object.console.js"
+			],
+			"settings": {
+				"foreground": "#fad",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Console statements",
+			"scope": [
+        "support.function.console.js"
+      ],
+			"settings": {
+				"foreground": "#f7a",
 				"fontStyle": ""
 			}
 		},
@@ -596,7 +734,8 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#23B5CF",
+        "fontStyle": "bold",
 			}
 		},
 		{
@@ -635,7 +774,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#70FFFD"
+				"foreground": "#b8a384"
 			}
 		},
 
