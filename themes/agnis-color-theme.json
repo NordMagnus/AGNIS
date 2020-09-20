@@ -610,7 +610,7 @@
       "settings": {
         // "foreground": "#23B5CF",
 				// "foreground": "#6FBD91",
-				"foreground": "#B1C230",
+				"foreground": "#83b623",
       }
     },
 
@@ -624,7 +624,7 @@
       "settings": {
         // "foreground": "#23B5CF",
 				// "foreground": "#BEFADB",
-				"foreground": "#D3FF78",
+				"foreground": "#cce963",
       }
     },
 
