@@ -19,6 +19,9 @@ const isPropertyDocumented = k => !NOT_ALLOWED_PROPERTIES.includes(k);
 // eslint-disable-next-line no-undef
 const reactD3GraphVersion = rd3gRunningVersion;
 
+function TestFunction() {
+  console.log("Hej");
+}
 /**
  * This is a sample integration of react-d3-graph, in this particular case all the rd3g config properties
  * will be exposed in a form in order to allow on the fly graph configuration.
@@ -511,6 +514,11 @@ class JSONContainer extends React.Component {
     return !this.props.staticData && !isDeepEqual(nextProps.data, this.props.data);
   }
 
+  async dummyFunc(test1, test) {
+    const localConst = 2341;
+    let localVar = 'fet';
+    await callAsyncMethod();
+  }
   /**
    * Testar *fet* och _understryk_
    */
