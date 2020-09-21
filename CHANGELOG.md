@@ -6,6 +6,16 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3
+
+Noteworthy
+---
+- Semantic highlighting
+
+Minor Tweaks
+---
+- Reverted or adjusted some changes from 0.2 because of conflicts with semantic highlighting
+
 ## Version 0.2
 
 Noteworthy
@@ -14,7 +24,7 @@ Noteworthy
 - Adjusted class and function definitions to stand out more
 - JavaScript: Made _this_ and _self_ italic and same color
 - JavaScript: Made _module_ keyword more subtle
-- Made _console_ statements stand out more in a separate color
+- ~~Made _console_ statements stand out more in a separate color~~
 
 Minor Tweaks
 ---
