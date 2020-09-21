@@ -2,7 +2,17 @@
 
 {
 	"name": "Ageis",
-	"type": "dark",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "property": "#D0D2CC",
+    "function": "#23B5CF",
+    "class.declaration": "#fff",
+    "variable.defaultLibrary": "#47e1fc",
+    "member.defaultLibrary": "#23B5CF",
+    "function.declaration": {"fontStyle": "bold"},
+    "member.declaration": {"fontStyle": "bold", "foreground": "#eee"},
+  },
 	"colors": {
 
 		/* General UI */
@@ -264,7 +274,6 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#6B6E61"
 			}
 		},
@@ -435,11 +444,23 @@
 		{
 			"name": "Operators",
 			"scope": [
-				"keyword.operator"
+        "keyword.operator",
+        "storage.type.function.arrow"
 			],
 			"settings": {
 				"foreground": "#CD2365",
 				"fontStyle": "bold"
+			}
+		},
+
+		{
+			"name": "Operators",
+			"scope": [
+        "punctuation.quasi.element.begin",
+        "punctuation.quasi.element.end"
+			],
+			"settings": {
+				"foreground": "#a38f70",
 			}
 		},
 
@@ -490,7 +511,8 @@
 			"scope": [
 				// "support.function",
 				"meta.function-call",
-				"meta.method-call",
+        "meta.method-call",
+        "support.function.mutator",
 				// "support.other.variable",
 				// "string.other.link",
 			],
@@ -548,11 +570,12 @@
 				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"meta.brace.square",
+        "meta.brace.curly",
 				"meta.brace.round",
 				// "meta.block variable.other",
 				"variable.other.object",
 				"variable.other.property",
-				"variable.other.constant.property",
+        "variable.other.constant.property",
         "meta.method.body",
         "JSXNested",
         "text.html.derivative",
@@ -564,39 +587,42 @@
 		},
 
     {
-      "name": "Strings",
-      "scope": [
-        "string",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
-        "string.quoted.template.js",
-        "string.quoted.double.js",
-        "string.quasi.js",
-      ],
-      "settings": {
-        "foreground":"#ddcaae",
-      }
-    },
-
-		{
 			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
+				"string.quoted",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
-				"constant.other.symbol",
-				"constant.other.key",
+			],
+			"settings": {
+        "foreground": "#b19a77",
+			}
+		},
+		
+    {
+      "name": "Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "constant.other.symbol",
+        "constant.other.key",
+        "constant.other.object.key",
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js",
         "variable.other.readwrite.shorthandpropertyname.js",
-			],
-			"settings": {
-				"foreground": "#a38f70",
-			}
-		},
-		
+      ],
+      "settings": {
+        "foreground": "#D0D2CC",
+      }
+    },
+
+    {
+      "name": "Variables",
+      "scope": "variable.other.readwrite",
+      "settings": {
+        "foreground": "#D0D2CC",
+      }
+    },
+
 		//#endregion Variables and Strings
 
     //#region JSX
@@ -690,27 +716,27 @@
 			}
 		},
 
-		{
-			"name": "Console statements",
-			"scope": [
-				"support.type.object.console.js"
-			],
-			"settings": {
-				"foreground": "#fad",
-				"fontStyle": ""
-			}
-		},
+		// {
+		// 	"name": "Console statements",
+		// 	"scope": [
+		// 		"support.type.object.console.js"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#fad",
+		// 		"fontStyle": ""
+		// 	}
+		// },
 
-		{
-			"name": "Console statements",
-			"scope": [
-        "support.function.console.js"
-      ],
-			"settings": {
-				"foreground": "#f7a",
-				"fontStyle": ""
-			}
-		},
+		// {
+		// 	"name": "Console statements",
+		// 	"scope": [
+    //     "support.function.console.js"
+    //   ],
+		// 	"settings": {
+		// 		"foreground": "#f7a",
+		// 		"fontStyle": ""
+		// 	}
+		// },
 
 		{
 			"name": "CSS Class and Support",

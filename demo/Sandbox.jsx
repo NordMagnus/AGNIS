@@ -80,6 +80,7 @@ export default class Sandbox extends React.Component {
   onDoubleClickNode = id => toast(`Double clicked node ${id}`);
 
   onRightClickNode = (event, id) => {
+    let banana = "fruit";
     event.preventDefault();
     toast(`Right clicked node ${id}`);
   };
