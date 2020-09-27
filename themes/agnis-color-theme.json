@@ -171,7 +171,7 @@
 		/* Find your inner path */
 		"editor.findMatchBackground": "#404040",
     "editor.findMatchBorder": "#fff34a",
-		"editor.findMatchHighlightBackground": "#404040",
+		"editor.findMatchHighlightBackground": "#505050",
     // "editor.findMatchHighlightBorder": "#ffee008c",
 		"editorOverviewRuler.findMatchForeground": "#fff34a",
 		"minimap.findMatchHighlight": "#fff34a",
@@ -261,7 +261,7 @@
 	},
 
   "semanticTokenColors": {
-    "property": "#d7dad2",
+    "property": "#d0d2cc",
     "function": "#23B5CF",
     "class.declaration": "#fff",
     "variable.defaultLibrary": "#47e1fc",
@@ -603,13 +603,13 @@
 				// "meta.block variable.other",
 				"variable.other.object",
 				"variable.other.property",
-        "variable.other.constant.property",
+        "variable.other.constant",
         "meta.method.body",
         "JSXNested",
         "text.html.derivative",
 			],
 			"settings": {
-        "foreground": "#d7dad2",
+        "foreground": "#d0d2cc",
 				"fontStyle": ""
 			}
 		},
@@ -639,7 +639,7 @@
         "variable.other.readwrite.shorthandpropertyname.js",
       ],
       "settings": {
-        "foreground": "#d7dad2",
+        "foreground": "#d0d2cc",
       }
     },
 
@@ -647,7 +647,7 @@
       "name": "Variables",
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#d7dad2",
+        "foreground": "#d0d2cc",
       }
     },
 
@@ -699,7 +699,7 @@
         "JSXNested",
 			],
 			"settings": {
-        "foreground": "#d7dad2",
+        "foreground": "#d0d2cc",
 				"fontStyle": ""
 			}
 		},
@@ -945,7 +945,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#d7dad2"
+				"foreground": "#d0d2cc"
 			}
 		},
 		{
@@ -1023,7 +1023,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#d7dad2"
+				"foreground": "#d0d2cc"
 			}
 		},
 		{

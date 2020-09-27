@@ -6,6 +6,11 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.2
+
+- Switched back default background
+- JS: Fixed constants in template strings
+
 ## Version 0.3.1
 
 - Minor tweaks related to switching to semantic.
