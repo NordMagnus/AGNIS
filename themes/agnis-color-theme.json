@@ -261,7 +261,7 @@
 	},
 
   "semanticTokenColors": {
-    "property": "#d0d2cc",
+    "property": "#d8dad4",
     "function": "#23B5CF",
     "class.declaration": "#fff",
     "variable.defaultLibrary": "#47e1fc",
@@ -449,7 +449,6 @@
 				"support.variable.property",
 				"meta.tag",
 				"storage.modifier",
-        "storage.type.function"			
       ],
 			"settings": {
 				"foreground": "#CD9523",
@@ -463,7 +462,7 @@
         "storage.type.function"			
       ],
 			"settings": {
-				"foreground": "#FFC34A",
+				"foreground": "#23B5CF",
 			}
 		},
 
@@ -609,7 +608,7 @@
         "text.html.derivative",
 			],
 			"settings": {
-        "foreground": "#d0d2cc",
+        "foreground": "#d8dad4",
 				"fontStyle": ""
 			}
 		},
@@ -639,7 +638,7 @@
         "variable.other.readwrite.shorthandpropertyname.js",
       ],
       "settings": {
-        "foreground": "#d0d2cc",
+        "foreground": "#d8dad4",
       }
     },
 
@@ -647,7 +646,7 @@
       "name": "Variables",
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#d0d2cc",
+        "foreground": "#d8dad4",
       }
     },
 
@@ -689,7 +688,7 @@
       ],
       "settings": {
         // "foreground": "#23B5CF",
-				"foreground": "#A8AAA5",
+				"foreground": "#c3cab4",
       }
     },
 
@@ -699,7 +698,7 @@
         "JSXNested",
 			],
 			"settings": {
-        "foreground": "#d0d2cc",
+        "foreground": "#d8dad4",
 				"fontStyle": ""
 			}
 		},
@@ -945,7 +944,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#d0d2cc"
+				"foreground": "#d8dad4"
 			}
 		},
 		{
@@ -1023,7 +1022,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#d0d2cc"
+				"foreground": "#d8dad4"
 			}
 		},
 		{

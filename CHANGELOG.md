@@ -6,9 +6,15 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.3
+
+- Another slight change to default foreground
+- Made color of JSX attributes lighter and a just a little green
+- Changed function keyword to blue (from orange)
+
 ## Version 0.3.2
 
-- Switched back default background
+- Switched back default foreground
 - JS: Fixed constants in template strings
 
 ## Version 0.3.1
