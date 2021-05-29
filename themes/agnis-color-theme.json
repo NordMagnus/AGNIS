@@ -17,7 +17,7 @@
 		"list.activeSelectionForeground": "#E6E6E3",
 		"list.inactiveSelectionBackground": "#33352E",
 		"list.inactiveSelectionForeground": "#d7dad2",
-		"list.focusBackground": "#6B6E61",
+    "quickInputList.focusBackground": "#6B6E61",
 		"list.focusForeground": "#E6E6E3",
 		"list.inactiveFocusBackground": "#6B6E61",
 		"list.highlightForeground": "#d7dad2",
@@ -26,6 +26,9 @@
 		"button.background": "#25646F",
 		"button.hoverBackground": "#328897",
 		"button.foreground": "#E6E6E3",
+    "button.secondaryBackground": "#42443C",
+    "button.secondaryForeground": "#A2A599",
+    "button.secondaryHoverBackground": "#6B6E61",
 
 		/* Drop down gorgeous */
 		"dropdown.listBackground": "#42443C",
@@ -98,8 +101,8 @@
 		"badge.foreground": "#fff",
 		
 		/* Scrolls */
-		"scrollbarSlider.hoverBackground": "#6B6E61",
-		"scrollbarSlider.background": "#42443C",
+		"scrollbarSlider.hoverBackground": "#888b7c",
+		"scrollbarSlider.background": "#6b6e61",
 		"scrollbarSlider.activeBackground": "#d7dad2",
 		"scrollbar.shadow": "#000",
 
@@ -131,7 +134,7 @@
 		"editor.rangeHighlightBackground": "#4e553940",
 		"editorWhitespace.foreground": "#42443C",
 		"editorRuler.foreground": "#30322C",
-		"editorCodeLens.foreground": "#4c4e44", 
+		"editorCodeLens.foreground": "#6B6E61", 
 		
 		/* Editor Widget */ 
 		"editorWidget.background": "#33352E",
@@ -148,8 +151,11 @@
 
 		/* Make a difference */
 		"diffEditor.border": "#A2A599",
-		"diffEditor.insertedTextBackground": "#82c52b28",
-		"diffEditor.removedTextBackground": "#ff400028",
+		"diffEditor.insertedTextBackground": "#5f690010",
+		"diffEditor.removedTextBackground": "#a7392610",
+    "diffEditor.insertedTextBorder": "#5f6900e0",
+    "diffEditor.removedTextBorder": "#a73926e0",
+    "diffEditor.diagonalFill": "#42443C",
 
 		"quickInput.background": "#30322C",
 		"quickInput.foreground": "#A2A599",
@@ -269,7 +275,9 @@
     "function.declaration": {"foreground": "#fff"},
     "member.declaration": {"foreground": "#fff"},
     "*.static": {"fontStyle": "underline"},
-    "*.abstract": {"fontStyle": "italic"}
+    "*.abstract": {"fontStyle": "italic"},
+    "*.async": "#7e91fb",
+    "*.declaration.async": "#fff",
   },
 
 	"tokenColors": [
@@ -487,7 +495,8 @@
         "punctuation.quasi.element.end"
 			],
 			"settings": {
-				"foreground": "#a38f70",
+				"foreground": "#c8b08a",
+        // "fontStyle": "underline"
 			}
 		},
 
@@ -621,7 +630,7 @@
 				"punctuation.definition.string.end",
 			],
 			"settings": {
-        "foreground": "#b19a77",
+        "foreground": "#a38f70",
 			}
 		},
 		
