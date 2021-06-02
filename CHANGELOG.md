@@ -6,6 +6,12 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.5
+
+- Tweaked diff editor backgrounds to show better in gutter
+- Tweaked scrollbar slider transparency
+- Changed hue somewhat of async calls
+
 ## Version 0.3.4
 
 - Made scrollbar slider stand out more
@@ -14,6 +20,7 @@ __If you have suggestions on improvements or variants you wish to see. Let me kn
 - Changed color of async function invocations to help remember await
 - Changed color of template literals slightly
 - Added secondary button theming for custom dialogs
+  
 ## Version 0.3.3
 
 - Another slight change to default foreground
