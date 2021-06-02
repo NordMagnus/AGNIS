@@ -101,9 +101,9 @@
 		"badge.foreground": "#fff",
 		
 		/* Scrolls */
-		"scrollbarSlider.hoverBackground": "#888b7c",
-		"scrollbarSlider.background": "#6b6e61",
-		"scrollbarSlider.activeBackground": "#d7dad2",
+		"scrollbarSlider.hoverBackground": "#ffffff60",
+		"scrollbarSlider.background": "#ffffff41",
+		"scrollbarSlider.activeBackground": "#ffffff90",
 		"scrollbar.shadow": "#000",
 
 		/* Editor */
@@ -151,8 +151,8 @@
 
 		/* Make a difference */
 		"diffEditor.border": "#A2A599",
-		"diffEditor.insertedTextBackground": "#5f690010",
-		"diffEditor.removedTextBackground": "#a7392610",
+		"diffEditor.insertedTextBackground": "#5f690020",
+		"diffEditor.removedTextBackground": "#a7392620",
     "diffEditor.insertedTextBorder": "#5f6900e0",
     "diffEditor.removedTextBorder": "#a73926e0",
     "diffEditor.diagonalFill": "#42443C",
@@ -173,7 +173,6 @@
 		"peekViewResult.selectionBackground": "#30322C",
 		"peekViewResult.selectionForeground": "#d7dad2",
 		"peekViewResult.fileForeground": "#d7dad2",
-
 		/* Find your inner path */
 		"editor.findMatchBackground": "#404040",
     "editor.findMatchBorder": "#fff34a",
@@ -276,7 +275,7 @@
     "member.declaration": {"foreground": "#fff"},
     "*.static": {"fontStyle": "underline"},
     "*.abstract": {"fontStyle": "italic"},
-    "*.async": "#7e91fb",
+    "*.async": "#8cb4ff",
     "*.declaration.async": "#fff",
   },
 
