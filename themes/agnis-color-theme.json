@@ -8,7 +8,7 @@
 
 		/* General UI */
 		"focusBorder": "#21221e",
-		"menu.selectionBackground": "#6B6E61",
+		"menu.selectionBackground": "#005b6b",
 		"foreground": "#d7dad2",
 		"widget.shadow": "#121311",
 		"descriptionForeground": "#d7dad2",
@@ -17,9 +17,9 @@
 		"list.activeSelectionForeground": "#E6E6E3",
 		"list.inactiveSelectionBackground": "#33352E",
 		"list.inactiveSelectionForeground": "#d7dad2",
-    "quickInputList.focusBackground": "#6B6E61",
+    "quickInputList.focusBackground": "#005b6b",
 		"list.focusForeground": "#E6E6E3",
-		"list.inactiveFocusBackground": "#6B6E61",
+		"list.inactiveFocusBackground": "#005b6b",
 		"list.highlightForeground": "#d7dad2",
 		"list.hoverBackground": "#42443C",
 		"list.hoverForeground": "#d7dad2",
@@ -30,7 +30,7 @@
     "button.secondaryForeground": "#A2A599",
     "button.secondaryHoverBackground": "#6B6E61",
 
-		/* Drop down gorgeous */
+		/* // Test Drop down gorgeous */
 		"dropdown.listBackground": "#42443C",
 		"dropdown.border": "#42443C",
 		"dropdown.background": "#33352E",
@@ -147,12 +147,12 @@
 		"editorSuggestWidget.border": "#42443C", 
 		"editorSuggestWidget.foreground": "#d7dad2",
 		"editorSuggestWidget.highlightForeground": "#fff",
-		"editorSuggestWidget.selectedBackground": "#42443C",
+		"editorSuggestWidget.selectedBackground": "#005b6b",
 
 		/* Make a difference */
 		"diffEditor.border": "#A2A599",
-		"diffEditor.insertedTextBackground": "#5f690020",
-		"diffEditor.removedTextBackground": "#a7392620",
+		"diffEditor.insertedTextBackground": "#5f690030",
+		"diffEditor.removedTextBackground": "#a7392630",
     "diffEditor.insertedTextBorder": "#5f6900e0",
     "diffEditor.removedTextBorder": "#a73926e0",
     "diffEditor.diagonalFill": "#42443C",

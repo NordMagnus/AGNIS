@@ -6,6 +6,11 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.6
+
+- Changed highlight color from gray to blue in menus and suggest widget
+- Another tiny tweak to diff editor backgrounds
+  
 ## Version 0.3.5
 
 - Tweaked diff editor backgrounds to show better in gutter
