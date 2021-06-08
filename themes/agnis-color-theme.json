@@ -103,7 +103,7 @@
 		/* Scrolls */
 		"scrollbarSlider.hoverBackground": "#ffffff60",
 		"scrollbarSlider.background": "#ffffff41",
-		"scrollbarSlider.activeBackground": "#ffffff90",
+		"scrollbarSlider.activeBackground": "#ffffff98",
 		"scrollbar.shadow": "#000",
 
 		/* Editor */
@@ -271,12 +271,13 @@
     "class.declaration": "#fff",
     "variable.defaultLibrary": "#47e1fc",
     "member.defaultLibrary": "#23B5CF",
-    "function.declaration": {"foreground": "#fff"},
-    "member.declaration": {"foreground": "#fff"},
+    "function.declaration": { "fontStyle": "bold", "foreground": "#d8dad4"},
+    "member.declaration": { "fontStyle": "bold", "foreground": "#d8dad4"},
     "*.static": {"fontStyle": "underline"},
     "*.abstract": {"fontStyle": "italic"},
     "*.async": "#8cb4ff",
-    "*.declaration.async": "#fff",
+    "*.declaration.async": { "fontStyle": "bold", "foreground": "#d8dad4"},
+    "method.declaration": { "fontStyle": "bold", "foreground": "#d8dad4"}
   },
 
 	"tokenColors": [
@@ -389,7 +390,7 @@
         "keyword.operator.combinator.css",
 			],
 			"settings": {
-				"foreground": "#FFC34A",
+				"foreground": "#e0ca48",
 				"fontStyle": ""
 			}
 		},		
@@ -401,7 +402,7 @@
         "variable.language.self.js",
       ],
 			"settings": {
-				"foreground": "#FFC34A",
+				"foreground": "#e0ca48",
 				"fontStyle": "italic"
 			}
     },
@@ -423,7 +424,7 @@
       ],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#FFC34A"
+				"foreground": "#e0ca48"
 			}
 		},
 
@@ -444,7 +445,7 @@
 				"storage.modifier.groovy"
 			],
 			"settings": {
-				"foreground": "#CD9523",
+				"foreground": "#cdae23",
 				"fontStyle": ""
 			}
 		},
@@ -452,13 +453,13 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"storage.type",
 				"support.variable.property",
 				"meta.tag",
 				"storage.modifier",
+				"storage.type",
       ],
 			"settings": {
-				"foreground": "#CD9523",
+				"foreground": "#ffe44a",
 				"fontStyle": ""
 			}
 		},
@@ -466,7 +467,9 @@
 		{
 			"name": "function keyword",
 			"scope": [
-        "storage.type.function"			
+				"storage.type.accessor",
+        "storage.type.function",
+        "storage.type.class",
       ],
 			"settings": {
 				"foreground": "#23B5CF",
@@ -486,6 +489,17 @@
 			}
 		},
 
+		{
+			"name": "Operators",
+			"scope": [
+        "keyword.operator.accessor",
+        "meta.delimiter.comma",
+			],
+			"settings": {
+				"foreground": "#D8DAD4",
+				"fontStyle": "bold"
+			}
+		},
 
 		{
 			"name": "Operators",
@@ -525,31 +539,12 @@
 			}
 		},
 		
-		// {  
-		// 	"name": "Function Definition", 
-		// 	"scope": [
-		// 		"meta.definition.method",
-    //     "meta.definition.class",
-    //     "meta.definition.function",
-    //     "entity.name.function.method",
-    //     "meta.name.arrow",
-    //     "entity.name.function.accessor",
-    //   ],
-		// 	"settings": {
-		// 		"foreground": "#bbb",
-		// 		"fontStyle": "bold"
-		// 	}
-		// },
-		
 		{
 			"name": "Function Calls",
 			"scope": [
-				// "support.function",
 				"meta.function-call",
         "meta.method-call",
         "support.function.mutator",
-				// "support.other.variable",
-				// "string.other.link",
 			],
 			"settings": {
 				"foreground": "#23B5CF",
@@ -560,7 +555,7 @@
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#fff",
+				"foreground": "#D8DAD4",
 			}
 		},
 		
@@ -569,7 +564,6 @@
 			"scope": [
 				"variable.function",
 				"keyword.other.special-method",
-				// "support.class.builtin",
 				"meta.array.literal",
 			],
 			"settings": {
@@ -607,7 +601,6 @@
 				"meta.brace.square",
         "meta.brace.curly",
 				"meta.brace.round",
-				// "meta.block variable.other",
 				"variable.other.object",
 				"variable.other.property",
         "variable.other.constant",
@@ -669,8 +662,6 @@
         "entity.name.tag.close.jsx",
       ],
       "settings": {
-        // "foreground": "#23B5CF",
-				// "foreground": "#6FBD91",
 				"foreground": "#83b623",
       }
     },
@@ -683,8 +674,6 @@
         "support.class.component.close.jsx",
       ],
       "settings": {
-        // "foreground": "#23B5CF",
-				// "foreground": "#BEFADB",
 				"foreground": "#cce963",
       }
     },
@@ -695,7 +684,6 @@
         "entity.other.attribute-name.jsx",
       ],
       "settings": {
-        // "foreground": "#23B5CF",
 				"foreground": "#c3cab4",
       }
     },

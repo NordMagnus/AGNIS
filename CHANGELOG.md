@@ -6,6 +6,13 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.7
+
+- Changed storage type accessors and class to blue
+- Changed hue to more yellowish (vs orange) 
+- Changed color of dot accessor and commas to default "almost white"
+- Changed function, method and member to bold and changed to "almost white"
+
 ## Version 0.3.6
 
 - Changed highlight color from gray to blue in menus and suggest widget
