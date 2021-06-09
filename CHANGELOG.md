@@ -6,6 +6,11 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.8
+
+- Had to slightly revert yellowness
+- Made default "almost white" color ever so slightly less whtie
+
 ## Version 0.3.7
 
 - Changed storage type accessors and class to blue

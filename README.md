@@ -2,7 +2,7 @@
 
 A theme from up north, created A Gloomy Night In Sweden (AGNIS).
 
-![Preview](images/preview.png)
+![Preview](images/preview-2.png)
 
 **Enjoy!**
 
