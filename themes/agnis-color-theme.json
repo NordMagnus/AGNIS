@@ -160,6 +160,9 @@
 		"quickInput.background": "#30322C",
 		"quickInput.foreground": "#A2A599",
 
+    /* Debugger inline values */
+    "editor.inlineValuesBackground": "#575a50",
+    "editor.inlineValuesForeground": "#d3cf00",
 		/* Peek View Editor */
 		"peekView.border": "#6B6E61",
 		"peekViewEditor.background": "#30322C",
