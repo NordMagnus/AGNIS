@@ -6,6 +6,13 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.3.10
+
+Minor Tweaks
+---
+- Function and method declarations
+- Async calls
+
 ## Version 0.3.9
 
 Minor Tweaks
