@@ -6,6 +6,22 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Version 0.4
+
+- Added semantic highlighting for `namespace`
+- Changed coloring of JS this/self keywords to gray
+- Removed some meta definitions to fix method call beginning parantheses
+- Made braces and punctuation stand out more (White)
+- Changed classes from blue to light gray and bold
+
+Minor Tweaks
+---
+- Keywords a bit more yellowish
+- Slight adjustment to operator pink
+- Variable parameters slightly lighter
+- Removed italic on language variables
+- Small adjustments to gray levels
+
 ## Version 0.3.10
 
 Minor Tweaks
