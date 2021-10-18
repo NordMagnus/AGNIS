@@ -1,6 +1,7 @@
 // https://paletton.com/#uid=73m0q0kmJAmcIPQigHRrxvJuWpV
 
 {
+  "$schema": "vscode://schemas/color-theme",
 	"name": "AGNIS",
   "type": "dark",
   "semanticHighlighting": true,

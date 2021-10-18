@@ -6,7 +6,33 @@ __If you find anything you don't like, let me know and together we will make thi
 
 __If you have suggestions on improvements or variants you wish to see. Let me know!__
 
+## Verison 0.5
+
+This version contains a major file structure overhaul and some bigger changes. The goal is to better handle updates to the extension API, over time better support various languages, and be more consistent in color choices.
+
+__*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss something or need a change in other languages let me know*__
+
+The big refactoring might have caused unwanted changes or bugs. Let me know if you find something weird.
+
+#### Noteworthy
+
+- Default libraries are autumn green (semantic rule)
+- Keywords (most of them) are chanterelle yellow
+- Flow keywords are autumn leaf orange (setting them apart from other keywords)
+- Function and class related things are blue (same as before)
+- Numbers are now purple <-- Big change 😮
+- Strings are earth brown
+- Operators are neon pink to stand out
+
+#### Minor Tweaks
+
+- Async method invocations underlined
+- Tweaked color of HTML and JSX attributes
+- Arrow function blue (instead of pink)
+
 ## Version 0.4
+
+#### Noteworthy
 
 - Added semantic highlighting for `namespace`
 - Changed coloring of JS this/self keywords to gray
@@ -14,8 +40,8 @@ __If you have suggestions on improvements or variants you wish to see. Let me kn
 - Made braces and punctuation stand out more (White)
 - Changed classes from blue to light gray and bold
 
-Minor Tweaks
----
+#### Minor Tweaks
+
 - Keywords a bit more yellowish
 - Slight adjustment to operator pink
 - Variable parameters slightly lighter
@@ -24,15 +50,15 @@ Minor Tweaks
 
 ## Version 0.3.10
 
-Minor Tweaks
----
+#### Minor Tweaks
+
 - Function and method declarations
 - Async calls
 
 ## Version 0.3.9
 
-Minor Tweaks
----
+#### Minor Tweaks
+
 - Foreground and background for debugger inline values
 
 ## Version 0.3.8
@@ -87,26 +113,26 @@ Minor Tweaks
 
 ## Version 0.3
 
-Noteworthy
----
+#### Noteworthy
+
 - Semantic highlighting
 
-Minor Tweaks
----
+#### Minor Tweaks
+
 - Reverted or adjusted some changes from 0.2 because of conflicts with semantic highlighting
 
 ## Version 0.2
 
-Noteworthy
----
+#### Noteworthy
+
 - JSX: Initial support for Babel JavaScript and React/JSX
 - Adjusted class and function definitions to stand out more
 - ~~JavaScript: Made _this_ and _self_ italic and same color~~
 - JavaScript: Made _module_ keyword more subtle
 - ~~Made _console_ statements stand out more in a separate color~~
 
-Minor Tweaks
----
+#### Minor Tweaks
+
 - Eased up on the italic
 - Adjusted codelens foreground color to be more visible
 - Color and boldness of builtin classes
@@ -115,5 +141,3 @@ Minor Tweaks
 ## First Release
 
 - Initial release. Feedback welcome for use cases, context and scenarios not thought of.
-
-

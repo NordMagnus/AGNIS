@@ -2,7 +2,7 @@
 
 A theme from up north, created A Gloomy Night In Sweden (AGNIS).
 
-![Preview](images/preview-2.png)
+![Preview](images/preview-3.png)
 
 **Enjoy!**
 
@@ -31,17 +31,8 @@ clarification purposes if possible.
 
 ### JavaScript with Hack Mono
 
-![Preview](images/screenshot-js-hack-2.png)
+![Preview](images/screenshot-js-hack.png)
 
 ### Markdown with Hack Mono
 
 ![Screenshot Markdown](images/screenshot-markdown.png)
-
-### TypeScript with Victor Mono
-
-![Screenshot Markdown](images/screenshot-ts-victor.png)
-
-### Docker File with Fira Code
-
-![Screenshot Markdown](images/screenshot-docker-fira.png)
-

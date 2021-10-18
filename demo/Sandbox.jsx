@@ -519,11 +519,14 @@ class JSONContainer extends React.Component {
     let localVar = 'fet';
     await callAsyncMethod();
   }
+
+
   /**
    * Testar *fet* och _understryk_
    */
   render() {
     return <pre className="json-data-container">{JSON.stringify(this.props.data, null, 2)}</pre>;
+    const b = this.dummyFunc('1', '2');
   }
 }
 
