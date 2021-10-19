@@ -2,17 +2,20 @@
 
 All notable changes to the "agnis" extension will be documented in this file.
 
-__If you find anything you don't like, let me know and together we will make this theme great again!__
-
-__If you have suggestions on improvements or variants you wish to see. Let me know!__
-
-## Verison 0.5
-
-This version contains a major file structure overhaul and some bigger changes. The goal is to better handle updates to the extension API, over time better support various languages, and be more consistent in color choices.
-
 __*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss something or need a change in other languages let me know*__
 
-The big refactoring might have caused unwanted changes or bugs. Let me know if you find something weird.
+## Version 0.5.1
+
+#### Minor Tweaks
+
+- Tweaked color for error squiggly
+- Added semantic rule for `class`
+
+## Version 0.5
+
+__This version contains a major file structure overhaul and some bigger changes. The goal is to better handle updates to the extension API, over time better support various languages, and be more consistent in color choices.__
+
+__The big refactoring might have caused unwanted changes or bugs. Let me know if you find something weird.__
 
 #### Noteworthy
 
