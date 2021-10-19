@@ -8,6 +8,7 @@
   "semanticTokenColors": {
     "function": "#23B5CF",
     "class.declaration": { "foreground": "#EAEEE7", "fontStyle": "bold"},
+    "class": "#eaeee7",
     "function.declaration": { "foreground": "#eaeee7"},
     "member.declaration": { "foreground": "#EAEEE7"},
     "property.declaration": { "foreground": "#EAEEE7"},
