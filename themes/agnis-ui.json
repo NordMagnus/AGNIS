@@ -252,7 +252,7 @@
 		"settings.textInputForeground": "#d7dad2",
 
 		/* Oops! Errors and Warnings */
-		"editorError.foreground": "#d1320a",
+		"editorError.foreground": "#fd3e0e",
 		"editorWarning.foreground": "#ef8020",
 		"editorHint.foreground": "#1070c0",
 		"editorInfo.foreground": "#1070c0",
