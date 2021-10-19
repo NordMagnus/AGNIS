@@ -31,7 +31,7 @@ clarification purposes if possible.
 
 ### JavaScript with Hack Mono
 
-![Preview](images/screenshot-js-hack.png)
+![Screenshot JavaScript](images/screenshot-js-hack.png)
 
 ### Markdown with Hack Mono
 
