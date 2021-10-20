@@ -20,6 +20,8 @@
     "*.async": {"foreground": "#00d1d1", "fontStyle": "underline"},
     "*.declaration.async": { "foreground": "#eaeee7", "fontStyle": ""},
     "method.declaration": { "foreground": "#eaeee7"},
+    // TS
+    "type.declaration": "#eaeee7",
   },
 
   "tokenColors": [
@@ -106,6 +108,14 @@
 		},
 		{
 			"scope": [
+				"entity.name.type.ts",
+			],
+			"settings": {
+				"foreground": "#69ABB8"
+			}
+		},
+		{
+			"scope": [
 				"storage.type.generic.java",
 				"storage.type.java",
 			],
@@ -120,6 +130,14 @@
 			],
 			"settings": {
 				"foreground": "#B1B4A7"
+			}
+		},
+		{
+			"scope": [
+        "support.type",
+			],
+			"settings": {
+				"foreground": "#848683",
 			}
 		},
 		{

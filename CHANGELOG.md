@@ -10,6 +10,11 @@ __*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss 
 
 - Tweaked color for error squiggly
 - Added semantic rule for `class`
+- Other changes for TS
+  - Support types darker gray
+  - Made storage types darker orange
+  - New color for entity name types
+- Changed color of language constants --> purple (same as numbers)
 
 ## Version 0.5
 

@@ -55,7 +55,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#f6d256"
+				"foreground": "#df99ff"
 			}
 		},
 		{
@@ -256,7 +256,10 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": [
+        "storage.type",
+        "keyword.operator.noexcept"
+      ],
 			"settings": {
 				"foreground": "#f6d256"
 			}
@@ -264,10 +267,9 @@
 		{
 			"scope": [
 				"storage.modifier",
-				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#f6d256",
+				"foreground": "#C3A644",
 				"fontStyle": ""
 			}
 		},
