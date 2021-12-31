@@ -1,44 +1,49 @@
 {
-    "name": "agnis",
-    "displayName": "AGNIS",
-    "description": "A theme from up north, created A Gloomy Night In Sweden (AGNIS).",
-    "version": "0.5.1",
-    "publisher": "MagnusNord",
-    "author": {
-        "name": "Magnus Nord"
-    },
-    "engines": {
-        "vscode": "^1.37.0"
-    },
-    "license": "SEE LICENSE IN LICENSE.txt",
-    "categories": [
-        "Themes"
-    ],
-    "icon": "images/agnis-logo.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "AGNIS",
-                "uiTheme": "vs-dark",
-                "path": "./themes/agnis.json"
-            },
-            {
-                "label": "AGNIS: TypeScript Must Die",
-                "uiTheme": "vs-dark",
-                "path": "./themes/agnis-ts-must-die.json"
-            }
-        ]
-    },
-    "keywords": ["babel javascript", "react", "dark", "semantic"],
-    "galleryBanner": {
-      "color": "#272824",
-      "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/NordMagnus/AGNIS"
-    },
-    "bugs": {
-        "url": "https://github.com/NordMagnus/AGNIS/issues"
-    }
+  "name": "agnis",
+  "displayName": "AGNIS",
+  "description": "A theme from up north, created A Gloomy Night In Sweden (AGNIS).",
+  "version": "0.6.0",
+  "publisher": "MagnusNord",
+  "author": {
+    "name": "Magnus Nord"
+  },
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/agnis-logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "AGNIS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/agnis.json"
+      },
+      {
+        "label": "AGNIS: TypeScript Must Die",
+        "uiTheme": "vs-dark",
+        "path": "./themes/agnis-ts-must-die.json"
+      }
+    ]
+  },
+  "keywords": [
+    "babel javascript",
+    "react",
+    "dark",
+    "semantic"
+  ],
+  "galleryBanner": {
+    "color": "#272824",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NordMagnus/AGNIS"
+  },
+  "bugs": {
+    "url": "https://github.com/NordMagnus/AGNIS/issues"
+  }
 }

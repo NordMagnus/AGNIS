@@ -4,6 +4,21 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.6
+
+#### Noteworthy
+
+- Included regular expression coloring from fatbrain's fork (gracias)
+- Added bracket pair rules. (See comment in readme, too.)
+- Added highlight to active editor tab
+- TS easter egg
+
+#### Minor Tweaks
+
+- Changed editor group border
+- Added rule for empty editor groups
+- Fixed(?) some colors for modules/imports
+
 ## Version 0.5.1
 
 #### Minor Tweaks
