@@ -21,6 +21,11 @@
                 "label": "AGNIS",
                 "uiTheme": "vs-dark",
                 "path": "./themes/agnis.json"
+            },
+            {
+                "label": "AGNIS: TypeScript Must Die",
+                "uiTheme": "vs-dark",
+                "path": "./themes/agnis-ts-must-die.json"
             }
         ]
     },

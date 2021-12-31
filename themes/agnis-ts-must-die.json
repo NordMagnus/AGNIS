@@ -1,8 +1,9 @@
 {
   "$schema": "vscode://schemas/color-theme",
 	"name": "AGNIS",
-  "include": "./agnis-base.json",
   "type": "dark",
+  "include": "./agnis-base.json",
+
   "semanticHighlighting": true,  
   "semanticTokenColors": {
     "newOperator": "#CDD0CA",
@@ -38,7 +39,6 @@
 				"punctuation.definition.bracket.curly.end.jsdoc",
         "storage.type.class.jsdoc",
         "support.type.builtin.primitive.jsdoc",
-        "storage.type.internaldeclaration.ts",
 			],
 			"settings": {
         "foreground": "#A2A599",
@@ -111,7 +111,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.type.ts",
 			],
 			"settings": {
 				"foreground": "#69ABB8"
@@ -369,6 +368,28 @@
         "foreground": "#CDD0CA",
 				"fontStyle": ""
 			}
-		},    
+		},
+
+    /*
+     * TS MUST DIE
+     */
+
+    {
+      "name": "TS must die",
+      "scope": [
+        "storage.type.internaldeclaration.ts",
+				"entity.name.type.ts",
+        "storage.modifier.ts",
+        "meta.type.annotation.ts",
+        "support.type.primitive.ts",
+        "support.type.builtin.ts",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.type.ts",
+        "punctuation.decorator.ts",
+      ],
+      "settings": {
+        "foreground": "#272822"
+      }
+    },
   ]
 }

@@ -3,13 +3,6 @@
 	"name": "AGNIS base",
   "include": "./agnis-ui.json",
   "type": "dark",
-  "semanticHighlighting": true,  
-  "semanticTokenColors": {
-    "newOperator": "#CDD0CA",
-    "stringLiteral": "#a38f70",
-    "customLiteral": "#CDD0CA",
-    "numberLiteral": "#df99ff",
-  },
   "tokenColors": [
 		{
 			"scope": [
