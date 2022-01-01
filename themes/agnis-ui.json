@@ -94,7 +94,7 @@
     /*
      * A pair of brackets please
      */
-    "editorBracketHighlight.foreground1": "#CDD0CA",
+    "editorBracketHighlight.foreground1": "#A9ADA7",
     "editorBracketPairGuide.background1": "#42443C",
     "editorBracketPairGuide.activeBackground1": "#a0a490",
     "editorBracketHighlight.foreground2": "#CDD0CA",
@@ -103,13 +103,13 @@
     "editorBracketHighlight.foreground3": "#CDD0CA",
     "editorBracketPairGuide.background3": "#42443C",
     "editorBracketPairGuide.activeBackground3": "#a0a490",
-    "editorBracketHighlight.foreground4": "#d4e448",
+    "editorBracketHighlight.foreground4": "#dbded8",
     "editorBracketPairGuide.background4": "#42443C",
     "editorBracketPairGuide.activeBackground4": "#a0a490",
-    "editorBracketHighlight.foreground5": "#f6d256",
+    "editorBracketHighlight.foreground5": "#e3ddb7",
     "editorBracketPairGuide.background5": "#42443C",
     "editorBracketPairGuide.activeBackground5": "#a0a490",
-    "editorBracketHighlight.foreground6": "#df99ff",
+    "editorBracketHighlight.foreground6": "#fff8ce",
     "editorBracketPairGuide.background6": "#42443C",
     "editorBracketPairGuide.activeBackground6": "#a0a490",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
