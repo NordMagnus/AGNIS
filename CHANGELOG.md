@@ -4,6 +4,10 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.6.2
+
+- Sorry, but I realized just __how much__ I dislike bracket pair coloring, so toned it down even more. Again, see the readme and customize the values in your settings if you like it more than I do. Also, feedback or suggestions on improvements always welcome.
+
 ## Version 0.6
 
 #### Noteworthy
