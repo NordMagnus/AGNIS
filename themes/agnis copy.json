@@ -24,9 +24,11 @@
     "property.declaration": {
       "foreground": "#EAEEE7"
     },
-    "*.defaultLibrary": "#cee02e",
-    "method.defaultLibrary": "#919c30",
-    "property.defaultLibrary": "#919c30",
+    "*.defaultLibrary": "#8fb3a8",
+    "variable.defaultLibrary": "#8fb3a8",
+    "class.defaultLibrary": "#9cf6da",
+    "method.defaultLibrary": "#8fb3a8",
+    "property.defaultLibrary": "#8fb3a8",
     "*.static": {
       "fontStyle": "underline"
     },
@@ -240,29 +242,7 @@
         "keyword.operator.instanceof",
       ],
       "settings": {
-        "foreground": "#e0c871",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Meta import",
-      "scope": [
-        "meta.import.js",
-        "keyword.control.from.js",
-        "keyword.control.import.js"
-      ],
-      "settings": {
-        "foreground": "#7e8273",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Meta import",
-      "scope": [
-        "variable.other.readwrite.alias.js",
-      ],
-      "settings": {
-        "foreground": "#95988b",
+        "foreground": "#cbb76c",
         "fontStyle": ""
       }
     },
@@ -273,7 +253,7 @@
         "keyword.control.trycatch.js"
       ],
       "settings": {
-        "foreground": "#ebae3d",
+        "foreground": "#e98604",
         "fontStyle": ""
       }
     },
@@ -471,6 +451,7 @@
       "name": "Svelte attributes etc",
       "scope": [
         "entity.name.label.js",
+        "punctuation.definition.variable.svelte"
       ],
       "settings": {
         "foreground": "#fff",

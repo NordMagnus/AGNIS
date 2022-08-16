@@ -2,9 +2,24 @@
 
 All notable changes to the "agnis" extension will be documented in this file.
 
-__*I mainly test on the languages I use myself: JS, CSS, JSX, HTML. If you miss something or need a change in other languages let me know*__
+__*I mainly test on the languages I use myself: JS, CSS, JSX, Svelte, HTML. If you miss something or need a change in other languages let me know*__
 
-## Version 0.6.2
+## Version 0.7
+
+#### Noteworthy
+
+- **Started on rules for _Svelte_ **
+- Changed line highlight to a darker grey instead of lighter 🤯
+- Changed color of try-catch block (to that of control flow)
+- Changed colors of JS imports to gray (from orange/yellow)
+
+#### Tweaks
+
+- Improved contrast between some colors and UI elements
+- Made default source color just a hint darker
+- Made keyword color less saturated
+
+## Version 0.6.3
 
 - Sorry, but I realized just __how much__ I dislike bracket pair coloring, so toned it down even more. Again, see the readme and customize the values in your settings if you like it more than I do. Also, feedback or suggestions on improvements always welcome.
 

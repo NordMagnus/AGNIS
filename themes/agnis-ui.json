@@ -7,7 +7,7 @@
     "focusBorder": "#21221e",
     "menu.selectionBackground": "#005b6b",
     "foreground": "#d7dad2",
-    "widget.shadow": "#121311",
+    "widget.shadow": "#0a0a0a",
     "descriptionForeground": "#d7dad2",
     "selection.background": "#328897",
     "list.activeSelectionBackground": "#42443C",
@@ -119,9 +119,9 @@
     /*
      * Scrolls
      */
-    "scrollbarSlider.hoverBackground": "#ffffff60",
-    "scrollbarSlider.background": "#ffffff41",
-    "scrollbarSlider.activeBackground": "#ffffff98",
+    "scrollbarSlider.hoverBackground": "#a0a0a060",
+    "scrollbarSlider.background": "#90909041",
+    "scrollbarSlider.activeBackground": "#a0a0a098",
     "scrollbar.shadow": "#000",
     /*
      * Editor
@@ -129,23 +129,23 @@
     "editor.background": "#272822",
     "editor.foreground": "#eeffff",
     "editorPane.background": "#171714",
-    "editor.lineHighlightBackground": "#3c3d37",
+    "editor.lineHighlightBackground": "#1e1e1a",
     "editorCursor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#42443C",
-    "editor.selectionBackground": "#505050",
-    "editor.inactiveSelectionBackground": "#505050",
+    "editor.selectionBackground": "#4e5044",
+    "editor.inactiveSelectionBackground": "#404238",
     "editor.selectionHighlightBackground": "#383838",
-    "editorIndentGuide.activeBackground": "#888b7c",
-    "editorIndentGuide.background": "#292b26",
+    "editorIndentGuide.activeBackground": "#747769",
+    "editorIndentGuide.background": "#32332e",
     "editorLineNumber.activeForeground": "#E6E6E3",
     "editor.hoverHighlightBackground": "#184149",
-    "editorHoverWidget.background": "#42443C",
+    "editorHoverWidget.background": "#3a3b35",
     "editorHoverWidget.border": "#6B6E61",
     "editor.symbolHighlightBackground": "#6B6E61",
     /*
      * Editor groups
      */
-    "editorGroup.border": "#30322C",
+    "editorGroup.border": "#42443C",
     "editorGroup.dropBackground": "#1d1d1a",
     "editorGroup.emptyBackground": "#272822",
     "editorGroup.focusedEmptyBorder": "#42443C",
@@ -172,7 +172,7 @@
     /*
      * Editor Suggest Widget
      */
-    "editorSuggestWidget.background": "#33352E",
+    "editorSuggestWidget.background": "#30322a",
     "editorSuggestWidget.border": "#42443C",
     "editorSuggestWidget.foreground": "#d7dad2",
     "editorSuggestWidget.highlightForeground": "#fff",
