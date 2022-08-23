@@ -100,7 +100,7 @@
         "entity.other.attribute-name.scss"
       ],
       "settings": {
-        "foreground": "#23B5CF"
+        "foreground": "#36aabf"
       }
     },
     {
@@ -118,7 +118,7 @@
     {
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#23B5CF",
+        "foreground": "#36aabf",
       }
     },
     {

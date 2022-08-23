@@ -4,6 +4,17 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JS, CSS, JSX, Svelte, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.8
+
+### Noteworthy
+
+- Added inlay hint colors
+
+### Tweaks
+
+- Slight change to keyword blue (used for functions, etc.)
+- Removed underline of async functions
+
 ## Version 0.7
 
 #### Noteworthy

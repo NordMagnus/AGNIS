@@ -9,7 +9,7 @@
     "stringLiteral": "#a38f70",
     "customLiteral": "#CDD0CA",
     "numberLiteral": "#df99ff",
-    "function": "#23B5CF",
+    "function": "#36aabf",
     "class.declaration": {
       "foreground": "#EAEEE7",
       "fontStyle": "bold"
@@ -35,7 +35,6 @@
     },
     "*.async": {
       "foreground": "#00d1d1",
-      "fontStyle": "underline"
     },
     "*.declaration.async": {
       "foreground": "#eaeee7",
@@ -132,7 +131,7 @@
         "entity.name.operator.custom-literal"
       ],
       "settings": {
-        "foreground": "#23B5CF"
+        "foreground": "#36aabf"
       }
     },
     {
@@ -173,7 +172,7 @@
         "storage.type.namespace",
       ],
       "settings": {
-        "foreground": "#23B5CF"
+        "foreground": "#36aabf"
       }
     },
     {
@@ -221,7 +220,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#23B5CF"
+        "foreground": "#36aabf"
       }
     },
     {
