@@ -194,6 +194,11 @@
     "editor.inlineValuesBackground": "#575a50",
     "editor.inlineValuesForeground": "#d3cf00",
     /*
+     *
+     */
+    "editorInlayHint.background": "#36372f",
+    "editorInlayHint.foreground": "#666959",
+    /*
      * Peek View Editor
      */
     "peekView.border": "#6B6E61",
