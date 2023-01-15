@@ -2,7 +2,7 @@
 
 A theme from up north, created A Gloomy Night In Sweden (AGNIS).
 
-![Preview](images/preview-3.png)
+![Preview](images/preview.png)
 
 **Enjoy!**
 
@@ -47,10 +47,10 @@ and customize it in VS Code settings yourself using the settings below.
 
 ## Screenshots
 
-### JavaScript with Hack Mono
+### TypeScript with Hack Mono
 
 ![Screenshot JavaScript](images/screenshot-js-hack.png)
 
-### Markdown with Hack Mono
+### Markdown with Cascadia Code
 
 ![Screenshot Markdown](images/screenshot-markdown.png)
