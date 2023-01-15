@@ -2,7 +2,29 @@
 
 All notable changes to the "agnis" extension will be documented in this file.
 
-__*I mainly test on the languages I use myself: JS, CSS, JSX, Svelte, HTML. If you miss something or need a change in other languages let me know*__
+__*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, HTML. If you miss something or need a change in other languages let me know*__
+
+## Version 0.9
+
+In this release the direction of the theme somewhat changes with more subdued colors and a slightly more neutral and darker background. I also decided to drop semantic support because it causes more problems than it helps (IMHO). If you prefer the old look it is still available packaged as an alternative theme: "AGNIS Legacy"
+
+### Noteworthy
+
+- Improved support for TypeScript
+- Improved support for Svelte
+
+### Tweaks
+
+- Type references a bit more subdued
+- Operator expressions (e.g. "of" in a for-of loop) same word as other keywords
+- Control flow keywords more yellowish
+- Imports darker and more consistent
+- Import strings (i.e. paths) same color as rest of imports
+- Export keyword same color as other keywords
+- New distinct color for TS type, enum and interface declarations
+- New distinct color for TS type, enum and interface usages
+- A separate color (gray) for primitive and built-in types
+- Function invocations more subdued blue
 
 ## Version 0.8
 

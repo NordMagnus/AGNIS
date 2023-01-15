@@ -2,7 +2,7 @@
   "name": "agnis",
   "displayName": "AGNIS",
   "description": "A theme from up north, created A Gloomy Night In Sweden (AGNIS).",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "publisher": "MagnusNord",
   "author": {
     "name": "Magnus Nord"
@@ -21,14 +21,19 @@
         "label": "AGNIS",
         "uiTheme": "vs-dark",
         "path": "./themes/agnis.json"
+      },
+      {
+        "label": "AGNIS Legacy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/agnis-legacy.json"
       }
     ]
   },
   "keywords": [
     "babel javascript",
+    "typescript",
     "react",
     "dark",
-    "semantic",
     "svelte"
   ],
   "galleryBanner": {

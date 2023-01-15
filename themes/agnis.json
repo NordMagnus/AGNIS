@@ -3,49 +3,7 @@
   "name": "AGNIS",
   "include": "./agnis-base.json",
   "type": "dark",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "newOperator": "#CDD0CA",
-    "stringLiteral": "#a38f70",
-    "customLiteral": "#CDD0CA",
-    "numberLiteral": "#df99ff",
-    "function": "#36aabf",
-    "class.declaration": {
-      "foreground": "#EAEEE7",
-      "fontStyle": "bold"
-    },
-    "class": "#eaeee7",
-    "function.declaration": {
-      "foreground": "#eaeee7"
-    },
-    "member.declaration": {
-      "foreground": "#EAEEE7"
-    },
-    "property.declaration": {
-      "foreground": "#EAEEE7"
-    },
-    "*.defaultLibrary": "#cee02e",
-    "method.defaultLibrary": "#919c30",
-    "property.defaultLibrary": "#919c30",
-    "*.static": {
-      "fontStyle": "underline"
-    },
-    "*.abstract": {
-      "fontStyle": "italic"
-    },
-    "*.async": {
-      "foreground": "#00d1d1",
-    },
-    "*.declaration.async": {
-      "foreground": "#eaeee7",
-      "fontStyle": ""
-    },
-    "method.declaration": {
-      "foreground": "#eaeee7"
-    },
-    // TS
-    "type.declaration": "#eaeee7",
-  },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "regex no-capture",
@@ -165,22 +123,13 @@
         "storage.type.primitive.array.groovy",
         "storage.type.primitive.groovy",
         "storage.type.accessor",
-        "storage.type.function",
         "storage.type.class",
         "storage.type.extends",
         "meta.function-call.generic.python",
         "storage.type.namespace",
       ],
       "settings": {
-        "foreground": "#36aabf"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.ts",
-      ],
-      "settings": {
-        "foreground": "#69ABB8"
+        "foreground": "#4fc7dc"
       }
     },
     {
@@ -190,23 +139,6 @@
       ],
       "settings": {
         "foreground": "#2dcfc2"
-      }
-    },
-    {
-      "scope": [
-        "support.class",
-        "support.type",
-      ],
-      "settings": {
-        "foreground": "#B1B4A7"
-      }
-    },
-    {
-      "scope": [
-        "support.type",
-      ],
-      "settings": {
-        "foreground": "#848683",
       }
     },
     {
@@ -220,7 +152,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#36aabf"
+        "foreground": "#5f9985"
       }
     },
     {
@@ -237,31 +169,10 @@
         "keyword.operator.expression.instanceof",
         "keyword.operator.typeof",
         "keyword.operator.instanceof",
+        "keyword.operator.expression",
       ],
       "settings": {
-        "foreground": "#e0c871",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Meta import",
-      "scope": [
-        "meta.import.js",
-        "keyword.control.from.js",
-        "keyword.control.import.js"
-      ],
-      "settings": {
-        "foreground": "#7e8273",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Meta import",
-      "scope": [
-        "variable.other.readwrite.alias.js",
-      ],
-      "settings": {
-        "foreground": "#95988b",
+        "foreground": "#d1c082",
         "fontStyle": ""
       }
     },
@@ -272,7 +183,7 @@
         "keyword.control.trycatch.js"
       ],
       "settings": {
-        "foreground": "#ebae3d",
+        "foreground": "#fbd549",
         "fontStyle": ""
       }
     },
@@ -284,15 +195,13 @@
         "keyword.control.import.ts",
         "keyword.control.as.ts",
         "keyword.control.from.ts",
-        "keyword.control.export.ts",
         "keyword.control.import.tsx",
         "keyword.control.as.tsx",
         "keyword.control.from.tsx",
-        "keyword.control.export.tsx",
         "keyword.operator.module.all.js"
       ],
       "settings": {
-        "foreground": "#a8aaa5",
+        "foreground": "#7e8273",
       }
     },
     {
@@ -432,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#d3ff35",
+        "foreground": "#bcd955",
         "fontStyle": ""
       }
     },
@@ -456,6 +365,34 @@
       }
     },
     {
+      "name": "Meta import",
+      "scope": [
+        "meta.import",
+        "keyword.control.from.js",
+        "keyword.control.import.js",
+        "constant.language.import-export-all",
+        "meta.import keyword.control.type.ts",
+        "meta.import string",
+      ],
+      "settings": {
+        "foreground": "#7e8273",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Meta import",
+      "scope": [
+        "meta.import variable",
+      ],
+      "settings": {
+        "foreground": "#b2b5a7",
+        "fontStyle": ""
+      }
+    },
+    /************************************************
+     *             SVELTE AND SVELTEKIT             *
+     ************************************************/
+    {
       "name": "Svelte attributes etc",
       "scope": [
         "keyword.other.animation.svelte",
@@ -467,14 +404,97 @@
       }
     },
     {
-      "name": "Svelte attributes etc",
+      "name": "Svelte directives",
       "scope": [
-        "entity.name.label.js",
+        "meta.directive",
+        "variable.function.svelte",
       ],
       "settings": {
-        "foreground": "#fff",
-        "fontStyle": "bold"
+        "foreground": "#F2E2AE",
+        "fontStyle": "italic"
       }
-    }
+    },
+    {
+      "scope": [
+        "meta.embedded.expression.svelte"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    /************************************************
+     *                 TYPESCRIPT                   *
+     ************************************************/
+
+    {
+      "name": "TypeScript ",
+      "scope": [
+        // "storage.type.internaldeclaration.ts",
+        // "meta.type.annotation.ts",
+      ],
+      "settings": {
+        "foreground": "#CDD0CA"
+      }
+    },
+    {
+      "name": "Type aliases and such",
+      "scope": [
+        "entity.name.type.alias.ts",
+        "meta.enum.declaration.ts"
+      ],
+      "settings": {
+        "foreground": "#5caad4"
+      }
+    },
+    {
+      "name": "TypeScript ops and puncs",
+      "scope": [
+        // "keyword.operator.assignment.ts",
+        "keyword.operator.optional.ts",
+        "keyword.operator.type.ts",
+        "keyword.operator.type.annotation.ts",
+        "punctuation.separator.comma.ts",
+        "punctuation.decorator.ts",
+      ],
+      "settings": {
+        "foreground": "#CDD0CA"
+      }
+    },
+    {
+      "scope": [
+        "meta.type.declaration.ts entity.name.type.alias.ts",
+        "meta.enum.declaration.ts entity.name.type",
+        "meta.interface.ts entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#6ed6b2"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.ts",
+      ],
+      "settings": {
+        "foreground": "#5f9985"
+      }
+    },
+    {
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.builtin.ts",
+      ],
+      "settings": {
+        "foreground": "#898989"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#7bafb9",
+        // "foreground": "#0000ff",
+      }
+    },
   ]
 }
