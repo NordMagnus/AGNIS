@@ -2,7 +2,7 @@
 
 All notable changes to the "agnis" extension will be documented in this file.
 
-__*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, HTML. If you miss something or need a change in other languages let me know*__
+__*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
 ## Version 0.9
 
