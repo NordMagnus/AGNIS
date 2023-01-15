@@ -126,20 +126,21 @@
     /*
      * Editor
      */
-    "editor.background": "#272822",
+    "editor.background": "#232421",
     "editor.foreground": "#eeffff",
     "editorPane.background": "#171714",
-    "editor.lineHighlightBackground": "#1e1e1a",
+    "editor.lineHighlightBackground": "#1a1a19",
+    "editor.lineHighlightBorder": "#171718",
     "editorCursor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#42443C",
-    "editor.selectionBackground": "#4e5044",
-    "editor.inactiveSelectionBackground": "#404238",
+    "editor.selectionBackground": "#414339",
+    "editor.inactiveSelectionBackground": "#33352d",
     "editor.selectionHighlightBackground": "#383838",
     "editorIndentGuide.activeBackground": "#747769",
     "editorIndentGuide.background": "#32332e",
     "editorLineNumber.activeForeground": "#E6E6E3",
     "editor.hoverHighlightBackground": "#184149",
-    "editorHoverWidget.background": "#3a3b35",
+    "editorHoverWidget.background": "#2a2b24",
     "editorHoverWidget.border": "#6B6E61",
     "editor.symbolHighlightBackground": "#6B6E61",
     /*
@@ -196,7 +197,7 @@
     /*
      *
      */
-    "editorInlayHint.background": "#36372f",
+    "editorInlayHint.background": "#30322C",
     "editorInlayHint.foreground": "#666959",
     /*
      * Peek View Editor

@@ -245,7 +245,7 @@
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#e0c871"
+        "foreground": "#d1c082"
       }
     },
     {
@@ -254,7 +254,7 @@
         "keyword.operator.noexcept"
       ],
       "settings": {
-        "foreground": "#e0c871"
+        "foreground": "#d1c082"
       }
     },
     {
@@ -262,7 +262,7 @@
         "storage.modifier",
       ],
       "settings": {
-        "foreground": "#e0c871",
+        "foreground": "#d1c082",
         "fontStyle": ""
       }
     },
@@ -346,8 +346,25 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#df3c7a",
+        "foreground": "#da6391",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "punctuation.accessor.optional",
+      "settings": {
+        "foreground": "#fff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.assignment",
+        "keyword.operator.spread",
+      ],
+      "settings": {
+        "foreground": "#a9aca8",
+        "fontStyle": ""
       }
     },
     {
