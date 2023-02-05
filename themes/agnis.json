@@ -201,7 +201,7 @@
         "keyword.operator.module.all.js"
       ],
       "settings": {
-        "foreground": "#7e8273",
+        "foreground": "#87796a",
       }
     },
     {
@@ -341,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#bcd955",
+        "foreground": "#e9ff98",
         "fontStyle": ""
       }
     },
@@ -375,7 +375,7 @@
         "meta.import string",
       ],
       "settings": {
-        "foreground": "#7e8273",
+        "foreground": "#87796a",
         "fontStyle": ""
       }
     },
@@ -385,7 +385,7 @@
         "meta.import variable",
       ],
       "settings": {
-        "foreground": "#b2b5a7",
+        "foreground": "#CDD0CA",
         "fontStyle": ""
       }
     },
@@ -422,6 +422,15 @@
         "fontStyle": ""
       }
     },
+    {
+      "scope": [
+        "keyword.control.flow.svelte",
+      ],
+      "settings": {
+        "foreground": "#47e3fe"
+      }
+    },
+    
     /************************************************
      *                 TYPESCRIPT                   *
      ************************************************/
@@ -461,6 +470,16 @@
       }
     },
     {
+      "name": "TypeScript type operators",
+      "scope": [
+        "keyword.operator.type.asserts.ts"
+      ],
+      "settings": {
+        "foreground": "#d1c082",
+        "fontStyle": ""
+      }
+    },
+    {
       "scope": [
         "meta.type.declaration.ts entity.name.type.alias.ts",
         "meta.enum.declaration.ts entity.name.type",
@@ -496,5 +515,25 @@
         // "foreground": "#0000ff",
       }
     },
+    /*
+     * CSS
+     */
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#4fc7dc",
+      }
+    },
+    {
+      "scope": [
+        "source.css keyword.other.unit"
+      ],
+      "settings": {
+        // "foreground": "#d1c082",
+        "fontStyle": ""
+      }
+    }
   ]
 }

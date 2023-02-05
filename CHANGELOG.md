@@ -4,6 +4,17 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.9.1
+
+- Changed color of TypeScript type operators to pale yellow
+- Changed import colors in JS/TS (they were too similar to comments.  
+_Might tweak this further. Please provide feedback what you think._
+- Changed color of Svelte control flow keywords to light blue
+- Increased contrast between Svelte (and JSX) components and HTML elements
+- CSS tweaks (more TBD).
+  - Removed bold from units
+  - Changed attribute names to lighter blue
+
 ## Version 0.9
 
 In this release the direction of the theme somewhat changes with more subdued colors and a slightly more neutral and darker background. I also decided to drop semantic support because it causes more problems than it helps (IMHO). If you prefer the old look it is still available packaged as an alternative theme: "AGNIS Legacy"
