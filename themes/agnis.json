@@ -201,7 +201,7 @@
         "keyword.operator.module.all.js"
       ],
       "settings": {
-        "foreground": "#87796a",
+        "foreground": "#787878",
       }
     },
     {
@@ -341,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#e9ff98",
+        "foreground": "#e2fff7a",
         "fontStyle": ""
       }
     },
@@ -372,10 +372,9 @@
         "keyword.control.import.js",
         "constant.language.import-export-all",
         "meta.import keyword.control.type.ts",
-        "meta.import string",
       ],
       "settings": {
-        "foreground": "#87796a",
+        "foreground": "#787878",
         "fontStyle": ""
       }
     },
@@ -383,9 +382,10 @@
       "name": "Meta import",
       "scope": [
         "meta.import variable",
+        "meta.import string",
       ],
       "settings": {
-        "foreground": "#CDD0CA",
+        "foreground": "#a4a4a4",
         "fontStyle": ""
       }
     },
