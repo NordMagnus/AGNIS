@@ -341,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#e2fff7a",
+        "foreground": "#e2ff7a",
         "fontStyle": ""
       }
     },
@@ -425,9 +425,10 @@
     {
       "scope": [
         "keyword.control.flow.svelte",
+        "keyword.control.conditional.svelte",
       ],
       "settings": {
-        "foreground": "#47e3fe"
+        "foreground": "#FBD549"
       }
     },
     

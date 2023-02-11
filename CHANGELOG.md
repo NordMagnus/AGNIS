@@ -4,6 +4,13 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.9.3
+
+- Fixed a couple of "bugs":
+  - Svelte component color was not applied because of typo
+  - Svelte flow control keyword blue instead of yellowish
+  - Added color for Svelte conditional keyword
+  
 ## Version 0.9.2
 
 - Tweaked JSX/Svelte component color
