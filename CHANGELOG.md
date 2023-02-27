@@ -4,6 +4,14 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.9.4
+
+- Fixed some low UI contrast issues (when keyboard navigating in menus)
+  - List focus outline
+  - List inactive background
+- Increased word highlight contrast (time will tell if enough)
+- Tweaked breadcrumb picker
+
 ## Version 0.9.3
 
 - Fixed a couple of "bugs":
