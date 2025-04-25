@@ -3,7 +3,7 @@
   "name": "AGNIS",
   "include": "./agnis-base.json",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "regex no-capture",
@@ -431,7 +431,53 @@
         "foreground": "#FBD549"
       }
     },
-    
+    // --- VUE & NEXT.JS SUPPORT ---
+    {
+      "name": "Vue SFC template/script/style blocks",
+      "scope": [
+        "source.vue",
+        "text.html.vue",
+        "meta.tag.vue",
+        "meta.script.vue",
+        "meta.style.vue"
+      ],
+      "settings": {
+        "foreground": "#CDD0CA"
+      }
+    },
+    {
+      "name": "Vue directives and attributes",
+      "scope": [
+        "entity.other.attribute-name.directive.vue",
+        "entity.other.attribute-name.vue",
+        "support.directive.vue",
+        "keyword.other.directive.vue"
+      ],
+      "settings": {
+        "foreground": "#F2E2AE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Vue component name",
+      "scope": [
+        "entity.name.component.vue"
+      ],
+      "settings": {
+        "foreground": "#e2ff7a"
+      }
+    },
+    {
+      "name": "Next.js special file and function highlighting",
+      "scope": [
+        "entity.name.filename.nextjs",
+        "support.function.nextjs"
+      ],
+      "settings": {
+        "foreground": "#36aabf",
+        "fontStyle": "bold"
+      }
+    },
     /************************************************
      *                 TYPESCRIPT                   *
      ************************************************/
@@ -536,5 +582,68 @@
         "fontStyle": ""
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    // --- General ---
+    "variable": "#CDD0CA",
+    "parameter": "#E1E4DE",
+    "property": "#A2A599",
+    "function": "#36aabf",
+    "method": "#36aabf",
+    "class": "#B1B4A7",
+    "enum": "#5caad4",
+    "interface": "#6ed6b2",
+    "type": "#5f9985",
+    "namespace": "#4fc7dc",
+    "typeParameter": "#5caad4",
+    "enumMember": "#CDD0CA",
+    "event": "#FBD549",
+    "modifier": "#d1c082",
+    "regexp": "#d4ff70",
+    "decorator": "#F2E2AE",
+    // --- Svelte ---
+    "variable.svelte": "#fff",
+    "property.svelte": "#F2E2AE",
+    "function.svelte": "#F2E2AE",
+    "class.svelte": "#e2ff7a",
+    "enum.svelte": "#5caad4",
+    "keyword.svelte": "#FBD549",
+    // --- Vue ---
+    "variable.vue": "#CDD0CA",
+    "property.vue": "#F2E2AE",
+    "function.vue": "#36aabf",
+    "class.vue": "#e2ff7a",
+    "type.vue": "#5f9985",
+    "keyword.vue": "#d1c082",
+    // --- Next.js ---
+    "function.nextjs": "#36aabf",
+    "variable.nextjs": "#CDD0CA",
+    // --- SvelteKit (explicit) ---
+    "variable.sveltekit": "#fff",
+    "property.sveltekit": "#F2E2AE",
+    "function.sveltekit": "#F2E2AE",
+    "class.sveltekit": "#e2ff7a",
+    "keyword.sveltekit": "#FBD549",
+    // --- Web/JSX/HTML ---
+    "variable.jsx": "#CDD0CA",
+    "property.jsx": "#F2E2AE",
+    "function.jsx": "#36aabf",
+    "class.jsx": "#e2ff7a",
+    "type.jsx": "#5f9985",
+    "keyword.jsx": "#d1c082",
+    "variable.html": "#CDD0CA",
+    "property.html": "#A2A599",
+    "function.html": "#36aabf",
+    "class.html": "#B1B4A7",
+    "type.html": "#5f9985",
+    "keyword.html": "#d1c082",
+    // --- Accessibility: ensure high contrast for all ---
+    "comment": "#A2A599",
+    "string": "#E1E4DE",
+    "number": "#9BCF23",
+    "keyword": "#d1c082",
+    "operator": "#df3c7a",
+    "builtinType": "#898989",
+    "macro": "#F2E2AE"
+  }
 }

@@ -13,7 +13,7 @@
     "selection.background": "#328897",
     "list.activeSelectionBackground": "#333333",
     "list.activeSelectionForeground": "#E6E6E3",
-    "list.focusOutline": "#cfb071",
+    "list.focusOutline": "#505050",
     "list.inactiveSelectionBackground": "#282828",
     "list.inactiveSelectionForeground": "#d7dad2",
     "quickInputList.focusBackground": "#005b6b",
@@ -22,6 +22,7 @@
     "list.highlightForeground": "#d7dad2",
     "list.hoverBackground": "#424242",
     "list.hoverForeground": "#d7dad2",
+    "list.focusBackground": "#505050",
     "list.focusAndSelectionOutline": "#cfb071",
     "button.background": "#25646F",
     "button.hoverBackground": "#328897",
@@ -56,7 +57,7 @@
     "activityBarBadge.background": "#328897",
     "activityBarBadge.foreground": "#fff",
     "activityBar.foreground": "#d7dad2",
-    "activityBar.inactiveForeground": "#6B6E61",
+    "activityBar.inactiveForeground": "#A2A599",
     /* Title Bar, Tabs and Editor Groups */
     "titleBar.activeBackground": "#171717",
     "titleBar.activeForeground": "#a5a5a5",
@@ -67,9 +68,9 @@
     "tab.activeBorder": "#333333",
     "tab.activeForeground": "#d7dad2",
     "tab.inactiveBackground": "#171717",
-    "tab.inactiveForeground": "#6B6E61",
+    "tab.inactiveForeground": "#A2A599",
     "breadcrumb.background": "#333333",
-    "breadcrumb.activeSelectionForeground": "#FFD788",
+    "breadcrumb.activeSelectionForeground": "#FFC34A",
     "breadcrumb.foreground": "#A2A599",
     "breadcrumb.focusForeground": "#E6E6E3",
     "breadcrumbPicker.background": "#333333",
@@ -186,6 +187,8 @@
     "editorSuggestWidget.foreground": "#d7dad2",
     "editorSuggestWidget.highlightForeground": "#fff",
     "editorSuggestWidget.selectedBackground": "#005b6b",
+    "editorActionList.focusBackground": "#505050",
+    "editorActionList.background": "#2f2f2f",
     /*
      * Make a difference
      */
@@ -281,16 +284,16 @@
     /*
      * Settings for the picky
      */
-    "settings.textInputBackground": "#333333",
-    "settings.checkboxBackground": "#333333",
+    "settings.textInputBackground": "#32363E",
+    "settings.checkboxBackground": "#32363E",
     "settings.checkboxBorder": "#444444",
     "settings.checkboxForeground": "#dddddd",
-    "settings.dropdownBackground": "#333333",
+    "settings.dropdownBackground": "#32363E",
     "settings.dropdownBorder": "#444444",
     "settings.dropdownForeground": "#dddddd",
     "settings.headerForeground": "#B8A384",
     "settings.modifiedItemIndicator": "#852C4F",
-    "settings.numberInputBackground": "#333333",
+    "settings.numberInputBackground": "#32363E",
     "settings.numberInputBorder": "#444444",
     "settings.numberInputForeground": "#dddddd",
     "settings.textInputBorder": "#444444",
@@ -298,8 +301,8 @@
     /*
      * Oops! Errors and Warnings
      */
-    "editorError.foreground": "#fd3e0e",
-    "editorWarning.foreground": "#ef8020",
+    "editorError.foreground": "#ff4b4b",
+    "editorWarning.foreground": "#ffc34a",
     "editorHint.foreground": "#1070c0",
     "editorInfo.foreground": "#1070c0",
     "editorGroupHeader.tabsBorder": "#33352E",
