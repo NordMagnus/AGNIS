@@ -4,6 +4,10 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 0.9.9
+
+- Fixed semantic language specific classes, e.g. Svelte classes
+
 ## Version 0.9.8
 
 - Fixed editor action list focus background color.
