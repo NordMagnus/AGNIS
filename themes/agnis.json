@@ -1649,7 +1649,9 @@
   ],
   "semanticTokenColors": {
     // --- General semantic tokens (OneDark-Pro compatible) ---
-    "variable": "#CDD0CA",
+    "variable": {
+      "fontStyle": "italic"
+    },
     "parameter": "#E1E4DE",
     "property": "#A2A599",
     "function": "#36aabf",
@@ -1695,9 +1697,6 @@
     "member.declaration": {
       "foreground": "#A2A599"
     },
-    "property.declaration": {
-      "foreground": "#A2A599"
-    },
     "method.declaration": {
       "foreground": "#A2A599"
     },
@@ -1705,8 +1704,6 @@
     
     // --- Default library support ---
     "*.defaultLibrary": "#cee02e",
-    "method.defaultLibrary": "#919c30",
-    "property.defaultLibrary": "#919c30",
     "function.defaultLibrary": "#919c30",
     "variable.defaultLibrary": "#cee02e",
     "function.declaration": "#36aabf",

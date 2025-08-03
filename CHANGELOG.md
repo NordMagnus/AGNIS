@@ -4,6 +4,17 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 1.0.2
+
+### Semantic Highlighting Improvements
+
+#### Enhanced Variable Styling
+- **Variables**: Changed semantic highlighting to only apply italic font style without overriding colors - variables now retain their syntax highlighting colors while being visually distinguished with italic styling
+
+#### Refined Property & Method Styling  
+- **Property Declarations**: Removed semantic color override for property declarations - properties now use standard syntax highlighting colors instead of being forced to a specific semantic color
+- **Default Library Methods**: Removed semantic color override for default library methods while preserving colors for default library variables and functions - provides more granular control over built-in library styling
+
 ## Version 1.0.1
 
 ### Bug Fixes & UI Improvements
