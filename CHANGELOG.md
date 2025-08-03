@@ -4,6 +4,40 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 1.0.0
+
+### Major Feature Expansion & Modern VS Code Support
+
+#### Noteworthy
+- **Comprehensive Language Support**: Added extensive semantic highlighting for 15+ programming languages including Python, C/C++, C#, Go, Rust, PHP, Java, Ruby, Swift, Kotlin, Dart, Scala, F#, Haskell, and Elm
+- **Enhanced Token Coverage**: Expanded from ~50 to 200+ token color rules covering specialized languages like Elixir, Clojure, CoffeeScript, HLSL, SQL, LaTeX, PowerShell, Lua, Nim, Zig, and Crystal
+- **Modern VS Code Features**: Full support for Jupyter notebooks, editor ghost text, light bulb actions, linked editing, fold backgrounds, stack frame highlighting, and advanced editor decorations
+- **Improved Accessibility**: Significantly enhanced contrast ratios across all UI elements, symbol icons, and selection backgrounds for better readability
+
+#### Language-Specific Enhancements
+- **Python**: Classes, functions, variables, decorators, magic methods, async/await
+- **TypeScript/JavaScript**: Interfaces, types, enums, JSX components, async patterns
+- **C/C++**: Structs, macros, templates, system types, memory management
+- **C#**: Properties, events, extension methods, LINQ expressions, generics
+- **Go**: Channels, goroutines, packages, receivers, interface implementations
+- **Rust**: Traits, lifetimes, macros, ownership keywords, pattern matching
+- **PHP**: Namespaces, traits, magic methods, modern PHP features
+- **Java**: Annotations, generics, lambda expressions, streams API
+- **Ruby**: Symbols, blocks, metaprogramming, Rails conventions
+
+#### UI & Accessibility Improvements
+- **Better Contrast**: Replaced bright selection colors (#328897, #005b6b) with darker, more accessible alternatives (#1a4651)
+- **Symbol Icon Colors**: Enhanced all symbol icons with improved contrast ratios while maintaining color distinction
+- **Git Decorations**: Updated all git status colors for better visibility and differentiation
+- **Modern UI Support**: Added theming for notebooks, command center, tree views, testing UI, and extension-specific elements
+- **Selection Consistency**: Unified selection backgrounds across menus, lists, suggest widgets, and editor elements
+
+#### Technical Improvements
+- **Zero Syntax Errors**: All theme files validated and error-free
+- **No Duplicate Keys**: Cleaned up all duplicate color definitions
+- **VS Code Compliance**: Removed invalid properties and ensured full compatibility with latest VS Code
+- **Professional Quality**: Enhanced theme to match feature completeness of top-tier VS Code themes
+
 ## Version 0.9.9
 
 - Fixed semantic language specific classes, e.g. Svelte classes
