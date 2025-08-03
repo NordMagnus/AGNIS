@@ -154,7 +154,7 @@
      * Editor groups
      */
     "editorGroup.border": "#424242",
-    "editorGroup.dropBackground": "#1d1d1d",
+    "editorGroup.dropBackground": "#55555580",
     "editorGroup.emptyBackground": "#272727",
     "editorGroup.focusedEmptyBorder": "#42443C",
     "editorGroupHeader.border": "#33352E",

@@ -4,6 +4,13 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 1.0.1
+
+### Bug Fixes & UI Improvements
+
+#### Fixed
+- **Editor Group Drop Background**: Improved contrast when dragging editors into new groups - changed from barely visible dark color (#1d1d1d) to a more accessible gray (#55555580) with proper transparency for better visibility while maintaining WCAG contrast compliance
+
 ## Version 1.0.0
 
 ### Major Feature Expansion & Modern VS Code Support
