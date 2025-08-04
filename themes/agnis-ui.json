@@ -80,8 +80,8 @@
     /*
      * Dialogs and shite
      */
-    "input.background": "#222222",
-    "input.border": "#222222",
+    "input.background": "#333333",
+    "input.border": "#555555",
     "input.placeholderForeground": "#6B6E61",
     "input.foreground": "#E6E6E3",
     "inputOption.activeBackground": "#33352E",
@@ -500,7 +500,7 @@
     /* Search Editor */
     "searchEditor.findMatchBackground": "#328897",
     "searchEditor.findMatchBorder": "#42443C",
-    "searchEditor.textInputBorder": "#42443C",
+    "searchEditor.textInputBorder": "#666666",
     
     /* OneDark-Pro Compatible Missing Colors */
     

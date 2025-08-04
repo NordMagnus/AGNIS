@@ -4,6 +4,14 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 1.0.3
+
+### UI Accessibility Improvements
+
+#### Enhanced Input Field Contrast
+- **Search Fields**: Improved contrast for search and input fields throughout VS Code interface - updated input background from #222222 to #333333 and input border from #222222 to #555555 for better accessibility and readability
+- **Search Editor**: Enhanced search editor text input border contrast (#666666) to improve visibility when using global search functionality
+
 ## Version 1.0.2
 
 ### Semantic Highlighting Improvements
