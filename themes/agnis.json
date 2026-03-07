@@ -341,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#B4C46D",
+        "foreground": "#A4BB50",
         "fontStyle": ""
       }
     },
@@ -464,7 +464,7 @@
         "entity.name.component.vue"
       ],
       "settings": {
-        "foreground": "#B4C46D"
+        "foreground": "#A4BB50"
       }
     },
     {
@@ -1816,7 +1816,7 @@
     "variable:svelte": "#cdd0ca",
     "property:svelte": "#F2E2AE",
     "function:svelte": "#36aabf",
-    "class:svelte": "#B4C46D",
+    "class:svelte": "#A4BB50",
     "enum:svelte": "#5caad4",
     "keyword:svelte": "#FBD549",
     "type:svelte": "#79B39E",
@@ -1825,7 +1825,7 @@
     "variable:vue": "#CDD0CA",
     "property:vue": "#F2E2AE",
     "function:vue": "#36aabf",
-    "class:vue": "#B4C46D",
+    "class:vue": "#A4BB50",
     "type:vue": "#79B39E",
     "keyword:vue": "#d1c082",
     
@@ -1837,14 +1837,14 @@
     "variable:sveltekit": "#CDD0CA",
     "property:sveltekit": "#F2E2AE",
     "function:sveltekit": "#36aabf",
-    "class:sveltekit": "#B4C46D",
+    "class:sveltekit": "#A4BB50",
     "keyword:sveltekit": "#FBD549",
     
     // Web/JSX/HTML
     "variable:jsx": "#CDD0CA",
     "property:jsx": "#F2E2AE",
     "function:jsx": "#36aabf",
-    "class:jsx": "#B4C46D",
+    "class:jsx": "#A4BB50",
     "type:jsx": "#79B39E",
     "keyword:jsx": "#d1c082",
     "variable:html": "#CDD0CA",
