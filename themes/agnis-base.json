@@ -63,9 +63,9 @@
       }
     },
     {
-      "scope": "constant.regexp", // TODO
+      "scope": "constant.regexp",
       "settings": {
-        "foreground": "#D4FF70" // TODO
+        "foreground": "#D4FF70"
       }
     },
     {
@@ -124,7 +124,7 @@
     {
       "scope": "meta.link.inline.markdown",
       "settings": {
-        "foreground": "#A38F70",
+        "foreground": "#BAA083",
       }
     },
     {
@@ -215,31 +215,31 @@
         "entity.name.function.preprocessor"
       ],
       "settings": {
-        "foreground": "#a8aaa5" // TODO
+        "foreground": "#A2A599"
       }
     },
     {
       "scope": "meta.preprocessor.string",
       "settings": {
-        "foreground": "#a38f70" // TODO
+        "foreground": "#BAA083"
       }
     },
     {
       "scope": "meta.preprocessor.numeric",
       "settings": {
-        "foreground": "#df99ff" // TODO
+        "foreground": "#df99ff"
       }
     },
     {
       "scope": "meta.structure.dictionary.key.python",
       "settings": {
-        "foreground": "#CDD0CA" // TODO
+        "foreground": "#CDD0CA"
       }
     },
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#e0c871" // TODO
+        "foreground": "#e0c871"
       }
     },
     {
@@ -272,21 +272,21 @@
         "meta.embedded.assembly"
       ],
       "settings": {
-        "foreground": "#a38f70"
+        "foreground": "#BAA083"
       }
     },
     {
       "scope": "string.tag",
       "settings": {
-        "foreground": "#a38f70",
-        "fontStyle": "bold" // TODO
+        "foreground": "#BAA083",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "string.value",
       "settings": {
-        "foreground": "#a38f70",
-        "fontStyle": "bold" // TODO
+        "foreground": "#BAA083",
+        "fontStyle": "bold"
       }
     },
     {
@@ -346,7 +346,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#da6391",
+        "foreground": "#F06A9B",
         "fontStyle": "bold"
       }
     },
@@ -381,14 +381,14 @@
         "keyword.operator.wordlike"
       ],
       "settings": {
-        "foreground": "#df3c7a",
+        "foreground": "#F06A9B",
         "fontStyle": ""
       }
     },
     {
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#df3c7a" // TODO
+        "foreground": "#F06A9B"
       }
     },
     {
@@ -397,19 +397,19 @@
         "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#df3c7a" // TODO
+        "foreground": "#F06A9B"
       }
     },
     {
       "scope": "support.function.git-rebase",
       "settings": {
-        "foreground": "#9cdcfe" // TODO
+        "foreground": "#36aabf"
       }
     },
     {
       "scope": "constant.sha.git-rebase",
       "settings": {
-        "foreground": "#b5cea8" // TODO
+        "foreground": "#A9B84A"
       }
     },
     {
