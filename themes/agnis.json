@@ -84,6 +84,8 @@
       "name": "Function declarations",
       "scope": [
         "support.function",
+        "entity.name.function",
+        "meta.function-call.generic.python",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
         "entity.name.operator.custom-literal"
@@ -98,7 +100,6 @@
         "meta.return-type",
         "entity.other.attribute",
         "entity.name.class",
-        "entity.name.function",
         "storage.type.numeric.go",
         "storage.type.byte.go",
         "storage.type.boolean.go",
@@ -125,11 +126,10 @@
         "storage.type.accessor",
         "storage.type.class",
         "storage.type.extends",
-        "meta.function-call.generic.python",
         "storage.type.namespace",
       ],
       "settings": {
-        "foreground": "#4fc7dc"
+        "foreground": "#79B39E"
       }
     },
     {
@@ -138,7 +138,7 @@
         "storage.type.java",
       ],
       "settings": {
-        "foreground": "#2dcfc2"
+        "foreground": "#79B39E"
       }
     },
     {
@@ -499,7 +499,7 @@
         "meta.enum.declaration.ts"
       ],
       "settings": {
-        "foreground": "#5caad4"
+        "foreground": "#79B39E"
       }
     },
     {
@@ -533,7 +533,7 @@
         "meta.interface.ts entity.name.type"
       ],
       "settings": {
-        "foreground": "#6ed6b2"
+        "foreground": "#8ABCAA"
       }
     },
     {
@@ -541,7 +541,7 @@
         "entity.name.type.ts",
       ],
       "settings": {
-        "foreground": "#5f9985"
+        "foreground": "#79B39E"
       }
     },
     {
@@ -1658,9 +1658,9 @@
     "method": "#36aabf",
     "class": "#B1B4A7",
     "enum": "#5caad4",
-    "interface": "#4fc7dc",
-    "type": "#4fc7dc",
-    "namespace": "#4fc7dc",
+    "interface": "#79B39E",
+    "type": "#79B39E",
+    "namespace": "#79B39E",
     "typeParameter": "#5caad4",
     "enumMember": "#4fc7dc",
     "event": "#FBD549",
@@ -1668,8 +1668,8 @@
     "regexp": "#d4ff70",
     "decorator": "#F2E2AE",
     "macro": "#F2E2AE",
-    "struct": "#4fc7dc",
-    "union": "#4fc7dc",
+    "struct": "#79B39E",
+    "union": "#79B39E",
     "label": "#A2A599",
     "operator": "#F06A9B",
     "keyword": "#d1c082",
@@ -1679,9 +1679,9 @@
     "variable.readonly": "#8FA6A1",
     "property.readonly": "#8FA6A1",
     "variable.readonly.defaultLibrary": "#8FA6A1",
-    "type.defaultLibrary": "#4fc7dc",
-    "class.defaultLibrary": "#4fc7dc",
-    "interface.defaultLibrary": "#4fc7dc",
+    "type.defaultLibrary": "#79B39E",
+    "class.defaultLibrary": "#79B39E",
+    "interface.defaultLibrary": "#79B39E",
     
     // --- Language-specific semantic tokens ---
     "newOperator": "#F06A9B",
@@ -1737,7 +1737,7 @@
     "class.python": "#B1B4A7",
     "decorator.python": "#F2E2AE",
     "magicFunction.python": "#36aabf",
-    "*.typeHint.python": "#4fc7dc",
+    "*.typeHint.python": "#79B39E",
     "*.typeHintComment.python": "#A2A599",
     
     // JavaScript/TypeScript
@@ -1750,7 +1750,7 @@
     
     // Java
     "class.java": "#B1B4A7",
-    "interface.java": "#4fc7dc",
+    "interface.java": "#79B39E",
     "enum.java": "#5caad4",
     "annotation.java": "#F2E2AE",
     
@@ -1759,41 +1759,41 @@
     "function.cpp": "#36aabf",
     "macro.c": "#F2E2AE",
     "macro.cpp": "#F2E2AE",
-    "type.c": "#4fc7dc",
-    "type.cpp": "#4fc7dc",
+    "type.c": "#79B39E",
+    "type.cpp": "#79B39E",
     
     // C#
     "class.cs": "#B1B4A7",
-    "interface.cs": "#4fc7dc", 
+    "interface.cs": "#79B39E", 
     "enum.cs": "#5caad4",
-    "struct.cs": "#4fc7dc",
+    "struct.cs": "#79B39E",
     "delegate.cs": "#36aabf",
     
     // Go
     "function.go": "#36aabf",
-    "type.go": "#4fc7dc",
-    "interface.go": "#4fc7dc",
-    "struct.go": "#4fc7dc",
+    "type.go": "#79B39E",
+    "interface.go": "#79B39E",
+    "struct.go": "#79B39E",
     
     // Rust
     "function.rust": "#36aabf",
-    "type.rust": "#4fc7dc",
-    "trait.rust": "#4fc7dc",
-    "struct.rust": "#4fc7dc",
+    "type.rust": "#79B39E",
+    "trait.rust": "#79B39E",
+    "struct.rust": "#79B39E",
     "enum.rust": "#5caad4",
     "lifetime.rust": "#F2E2AE",
     
     // PHP
     "function.php": "#36aabf",
     "class.php": "#B1B4A7",
-    "interface.php": "#4fc7dc",
-    "trait.php": "#4fc7dc",
+    "interface.php": "#79B39E",
+    "trait.php": "#79B39E",
     "constant.php": "#df99ff",
     
     // Ruby
     "function.ruby": "#36aabf", 
     "class.ruby": "#B1B4A7",
-    "module.ruby": "#4fc7dc",
+    "module.ruby": "#79B39E",
     "constant.ruby": "#df99ff",
     
     // --- Log file support ---
