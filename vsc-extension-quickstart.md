@@ -1,28 +1,45 @@
-# Welcome to your VS Code Extension
+# AGNIS development quickstart
 
-## What's in the folder
+This repository contains the AGNIS VS Code theme extension.
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Ageis-color-theme.json` - the color theme definition file.
+## Project structure
 
-## Get up and running straight away
+- `package.json` — extension manifest and published theme metadata
+- `themes/agnis-ui.json` — workbench/UI colors
+- `themes/agnis-base.json` — shared base token colors
+- `themes/agnis.json` — main AGNIS theme
+- `themes/agnis-legacy.json` — legacy variant
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `File > Preferences > Color Themes` and pick your color theme.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Inspect TM Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) .
+## Run the theme locally
 
-## Make changes
+1. Open this repository in VS Code
+2. Press `F5` to launch an **Extension Development Host** window
+3. In the new window, open **Preferences: Color Theme**
+4. Select **AGNIS** or **AGNIS Legacy**
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+## Test token colors
 
-## Adopt your theme to Visual Studio Code
+To inspect how VS Code scopes a token:
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+1. Open a file with the language you want to inspect
+2. Run **Developer: Inspect Editor Tokens and Scopes** from the Command Palette
+3. Check the TextMate scopes and semantic token information
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+This is the fastest way to understand why a color rule does or does not apply.
 
-## Install your extension
+## Making changes
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+- Theme JSON changes are reflected in the Extension Development Host after reload
+- UI colors usually show up immediately after reloading the host window
+- Syntax/token changes are easiest to validate with the demo files in `demo/`
+
+## Useful references
+
+- VS Code color theme guide: [code.visualstudio.com/api/extension-guides/color-theme](https://code.visualstudio.com/api/extension-guides/color-theme)
+- VS Code publishing docs: [code.visualstudio.com/api/working-with-extensions/publishing-extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+
+## Notes
+
+- AGNIS uses both TextMate token colors and semantic token colors
+- The main theme is the primary target for active improvements
+- The legacy theme is kept for users who prefer the older look and should stay usable when shared fixes are made

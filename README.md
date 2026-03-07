@@ -1,49 +1,71 @@
 # AGNIS Theme
 
-A theme from up north, created A Gloomy Night In Sweden (AGNIS).
+AGNIS — **A Gloomy Night In Sweden** — is a moody dark VS Code theme with muted neutrals, warm earth tones, cool Nordic accents, and a deliberately low-glare UI.
+
+It ships with two variants:
+
+- **AGNIS** — the current theme with expanded semantic and language support
+- **AGNIS Legacy** — the earlier look, kept around for anyone who prefers the old direction
 
 ![Preview](images/preview.png)
 
-**Enjoy!**
+## Why AGNIS
 
-## Changelog
+AGNIS aims to feel calm, readable, and a little autumnal rather than loud or neon. Recent work has focused on:
 
-[CHANGELOG.md](./CHANGELOG.md)
+- improved UI contrast and keyboard focus visibility
+- broader language coverage and semantic highlighting
+- cleaner palette consistency across syntax and workbench colors
 
-## Contributing
+I mainly test the theme on languages I use myself:
 
-Found something weird? Please report [here](). Please provide a screenshot for
-clarification purposes if possible.
+- JavaScript / TypeScript
+- CSS
+- JSX / TSX
+- Svelte
+- Markdown
+- HTML
 
-[GitHub repository](https://github.com/NordMagnus/AGNIS)
+If you spot something odd in another language, please open an issue.
 
 ## Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Launch Visual Studio Code
-3. Choose **Extensions** from menu
-4. Search for `AGNIS`
-5. Click **Install** to install it
-6. Click **Reload** to reload the Code
-7. File > Preferences > Color Theme > **AGNIS**
+2. Open the **Extensions** view
+3. Search for `AGNIS`
+4. Click **Install**
+5. Open **Preferences: Color Theme**
+6. Select **AGNIS** or **AGNIS Legacy**
 
-## About bracket pair highlighting
+## Feedback and issues
 
-Not a big fan, so the theme setup is pretty toned down. You can override
-and customize it in VS Code settings yourself using the settings below.
+Found something weird? Please open an issue and, if possible, include:
 
-    {
-      "editor.bracketPairColorization.enabled": true,
-      "workbench.colorCustomizations": {
-        "editorBracketHighlight.foreground1": "#CDD0CA",
-        "editorBracketHighlight.foreground2": "#CDD0CA",
-        "editorBracketHighlight.foreground3": "#CDD0CA",
-        "editorBracketHighlight.foreground4": "#d4e448",
-        "editorBracketHighlight.foreground5": "#f6d256",
-        "editorBracketHighlight.foreground6": "#df99ff",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
-      },
-    }    
+- a screenshot
+- the language or file type
+- the scope/token details if you inspected them
+
+- Issues: [github.com/NordMagnus/AGNIS/issues](https://github.com/NordMagnus/AGNIS/issues)
+- Repository: [github.com/NordMagnus/AGNIS](https://github.com/NordMagnus/AGNIS)
+
+## Bracket pair highlighting
+
+Bracket pair highlighting is intentionally toned down. If you want stronger bracket colors, you can override them in your own settings:
+
+```json
+{
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#CDD0CA",
+    "editorBracketHighlight.foreground2": "#CDD0CA",
+    "editorBracketHighlight.foreground3": "#CDD0CA",
+    "editorBracketHighlight.foreground4": "#d4e448",
+    "editorBracketHighlight.foreground5": "#f6d256",
+    "editorBracketHighlight.foreground6": "#df99ff",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  }
+}
+```
 
 ## Screenshots
 
@@ -54,3 +76,7 @@ and customize it in VS Code settings yourself using the settings below.
 ### Markdown with Cascadia Code
 
 ![Screenshot Markdown](images/screenshot-markdown.png)
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for release history.

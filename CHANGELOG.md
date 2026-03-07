@@ -4,6 +4,16 @@ All notable changes to the "agnis" extension will be documented in this file.
 
 __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX, Svelte, Markdown, HTML. If you miss something or need a change in other languages let me know*__
 
+## Version 1.0.4
+
+### Accessibility & Consistency Improvements
+
+- **Improved UI readability**: Increased contrast for focus states, placeholders, line numbers, CodeLens, inlay hints, inactive labels, and other low-visibility interface text
+- **Clearer syntax highlighting**: Refined imports, operators, built-in types, default library symbols, and several semantic token colors to make code easier to scan without losing the AGNIS feel
+- **Cleaner palette consistency**: Normalized a number of repeated color choices across the main theme, base theme, and legacy theme for a more cohesive look
+- **Theme polish**: Removed leftover TODO markers from shipped theme files and replaced a few harsh pure black/white values with softer tinted equivalents
+- **Documentation refresh**: Updated the README and development docs to better explain installation, included theme variants, feedback, and local theme work
+
 ## Version 1.0.3
 
 ### UI Accessibility Improvements
