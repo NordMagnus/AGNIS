@@ -341,7 +341,7 @@
         "support.class.component.svelte",
       ],
       "settings": {
-        "foreground": "#e2ff7a",
+        "foreground": "#B4C46D",
         "fontStyle": ""
       }
     },
@@ -464,7 +464,7 @@
         "entity.name.component.vue"
       ],
       "settings": {
-        "foreground": "#e2ff7a"
+        "foreground": "#B4C46D"
       }
     },
     {
@@ -1815,17 +1815,17 @@
     // Svelte
     "variable:svelte": "#cdd0ca",
     "property:svelte": "#F2E2AE",
-    "function:svelte": "#F2E2AE",
-    "class:svelte": "#a4bb50",
+    "function:svelte": "#36aabf",
+    "class:svelte": "#B4C46D",
     "enum:svelte": "#5caad4",
     "keyword:svelte": "#FBD549",
-    "type:svelte": "#aecc5a", // darker green for Svelte component part after dot
+    "type:svelte": "#79B39E",
 
     // Vue
     "variable:vue": "#CDD0CA",
     "property:vue": "#F2E2AE",
     "function:vue": "#36aabf",
-    "class:vue": "#e2ff7a",
+    "class:vue": "#B4C46D",
     "type:vue": "#79B39E",
     "keyword:vue": "#d1c082",
     
@@ -1834,17 +1834,17 @@
     "variable:nextjs": "#CDD0CA",
     
     // SvelteKit (explicit)
-    "variable:sveltekit": "#EAEEE7",
+    "variable:sveltekit": "#CDD0CA",
     "property:sveltekit": "#F2E2AE",
-    "function:sveltekit": "#F2E2AE",
-    "class:sveltekit": "#e2ff7a",
+    "function:sveltekit": "#36aabf",
+    "class:sveltekit": "#B4C46D",
     "keyword:sveltekit": "#FBD549",
     
     // Web/JSX/HTML
     "variable:jsx": "#CDD0CA",
     "property:jsx": "#F2E2AE",
     "function:jsx": "#36aabf",
-    "class:jsx": "#e2ff7a",
+    "class:jsx": "#B4C46D",
     "type:jsx": "#79B39E",
     "keyword:jsx": "#d1c082",
     "variable:html": "#CDD0CA",

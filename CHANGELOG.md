@@ -10,6 +10,7 @@ __*I mainly test on the languages I use myself: JavaScript, TypeScript, CSS, JSX
 
 - **Better type vs function separation**: Tuned token and semantic colors so types, interfaces, structs, and namespaces sit more clearly apart from functions and methods
 - **More consistent semantic colors**: Aligned async, default-library, string, and number semantics more closely with the core AGNIS palette for a calmer, more professional look
+- **Framework/component color tuning**: Softened overly bright JSX, Svelte, SvelteKit, and Vue component colors and made framework function coloring more consistent with the rest of the theme
 
 ## Version 1.0.4
 
