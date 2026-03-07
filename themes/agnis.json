@@ -1703,9 +1703,9 @@
     "type.declaration": "#BDC1B3",
     
     // --- Default library support ---
-    "*.defaultLibrary": "#cee02e",
+    "*.defaultLibrary": "#A9B84A",
     "function.defaultLibrary": "#A9B84A",
-    "variable.defaultLibrary": "#cee02e",
+    "variable.defaultLibrary": "#A9B84A",
     "function.declaration": "#36aabf",
     
     // --- Modifiers ---
@@ -1716,7 +1716,7 @@
       "fontStyle": "italic"
     },
     "*.async": {
-      "foreground": "#00d1d1"
+      "foreground": "#79B39E"
     },
     "*.declaration.async": {
       "foreground": "#eaeee7",
@@ -1741,8 +1741,8 @@
     "*.typeHintComment.python": "#A2A599",
     
     // JavaScript/TypeScript
-    "variable.defaultLibrary.js": "#cee02e",
-    "variable.defaultLibrary.ts": "#cee02e",
+    "variable.defaultLibrary.js": "#A9B84A",
+    "variable.defaultLibrary.ts": "#A9B84A",
     "function.defaultLibrary.js": "#A9B84A",
     "function.defaultLibrary.ts": "#A9B84A",
     "property.defaultLibrary.js": "#A9B84A", 
@@ -1856,8 +1856,8 @@
     
     // --- Accessibility: ensure high contrast for all ---
     "comment": "#A2A599",
-    "string": "#E1E4DE",
-    "number": "#9BCF23",
+    "string": "#BAA083",
+    "number": "#df99ff",
     "builtinType": "#A4A79A"
   }
 }
