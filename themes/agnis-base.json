@@ -353,7 +353,7 @@
     {
       "scope": "punctuation.accessor.optional",
       "settings": {
-        "foreground": "#fff",
+        "foreground": "#EAEEE7",
         "fontStyle": ""
       }
     },

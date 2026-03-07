@@ -6,7 +6,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "newOperator": "#CDD0CA",
-    "stringLiteral": "#a38f70",
+    "stringLiteral": "#BAA083",
     "customLiteral": "#CDD0CA",
     "numberLiteral": "#df99ff",
     "function": "#36aabf",
@@ -251,7 +251,7 @@
         "keyword.control.import.js"
       ],
       "settings": {
-        "foreground": "#7e8273",
+        "foreground": "#9CA091",
         "fontStyle": ""
       }
     },
@@ -389,7 +389,7 @@
     {
       "scope": "keyword.operator.quantifier.regexp",
       "settings": {
-        "foreground": "#df3c7a" // TODO
+        "foreground": "#F06A9B" // TODO
       }
     },
     {
@@ -462,7 +462,7 @@
         "keyword.control.svelte"
       ],
       "settings": {
-        "foreground": "#fff",
+        "foreground": "#EAEEE7",
         "fontStyle": "italic"
       }
     },
@@ -472,7 +472,7 @@
         "entity.name.label.js",
       ],
       "settings": {
-        "foreground": "#fff",
+        "foreground": "#EAEEE7",
         "fontStyle": "bold"
       }
     }

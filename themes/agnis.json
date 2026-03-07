@@ -201,7 +201,7 @@
         "keyword.operator.module.all.js"
       ],
       "settings": {
-        "foreground": "#787878",
+        "foreground": "#A2A599",
       }
     },
     {
@@ -298,7 +298,7 @@
     {
       "scope": "keyword.operator.quantifier.regexp",
       "settings": {
-        "foreground": "#df3c7a" // TODO
+        "foreground": "#F06A9B" // TODO
       }
     },
     {
@@ -374,7 +374,7 @@
         "meta.import keyword.control.type.ts",
       ],
       "settings": {
-        "foreground": "#787878",
+        "foreground": "#9CA091",
         "fontStyle": ""
       }
     },
@@ -399,7 +399,7 @@
         "keyword.control.svelte"
       ],
       "settings": {
-        "foreground": "#fff",
+        "foreground": "#EAEEE7",
         "fontStyle": "italic"
       }
     },
@@ -550,7 +550,7 @@
         "support.type.builtin.ts",
       ],
       "settings": {
-        "foreground": "#898989"
+        "foreground": "#A4A79A"
       }
     },
     {
@@ -606,7 +606,7 @@
         "keyword.operator.comparison.php"
       ],
       "settings": {
-        "foreground": "#df3c7a"
+        "foreground": "#F06A9B"
       }
     },
     {
@@ -742,7 +742,7 @@
         "keyword.operator.sizeof.cpp"
       ],
       "settings": {
-        "foreground": "#df3c7a"
+        "foreground": "#F06A9B"
       }
     },
     {
@@ -800,7 +800,7 @@
         "keyword.operator.address.go"
       ],
       "settings": {
-        "foreground": "#df3c7a"
+        "foreground": "#F06A9B"
       }
     },
     {
@@ -1424,7 +1424,7 @@
         "constant.other.color.rgb-value.xi"
       ],
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#EAEEE7"
       }
     },
     {
@@ -1671,7 +1671,7 @@
     "struct": "#4fc7dc",
     "union": "#4fc7dc",
     "label": "#A2A599",
-    "operator": "#df3c7a",
+    "operator": "#F06A9B",
     "keyword": "#d1c082",
     
     // --- OneDark-Pro inspired semantic tokens ---
@@ -1684,8 +1684,8 @@
     "interface.defaultLibrary": "#4fc7dc",
     
     // --- Language-specific semantic tokens ---
-    "newOperator": "#df3c7a",
-    "stringLiteral": "#a38f70", 
+    "newOperator": "#F06A9B",
+    "stringLiteral": "#BAA083", 
     "customLiteral": "#CDD0CA",
     "numberLiteral": "#df99ff",
     
@@ -1695,16 +1695,16 @@
       "fontStyle": "bold"
     },
     "member.declaration": {
-      "foreground": "#A2A599"
+      "foreground": "#BDC1B3"
     },
     "method.declaration": {
-      "foreground": "#A2A599"
+      "foreground": "#BDC1B3"
     },
-    "type.declaration": "#A2A599",
+    "type.declaration": "#BDC1B3",
     
     // --- Default library support ---
     "*.defaultLibrary": "#cee02e",
-    "function.defaultLibrary": "#919c30",
+    "function.defaultLibrary": "#A9B84A",
     "variable.defaultLibrary": "#cee02e",
     "function.declaration": "#36aabf",
     
@@ -1743,10 +1743,10 @@
     // JavaScript/TypeScript
     "variable.defaultLibrary.js": "#cee02e",
     "variable.defaultLibrary.ts": "#cee02e",
-    "function.defaultLibrary.js": "#919c30",
-    "function.defaultLibrary.ts": "#919c30",
-    "property.defaultLibrary.js": "#919c30", 
-    "property.defaultLibrary.ts": "#919c30",
+    "function.defaultLibrary.js": "#A9B84A",
+    "function.defaultLibrary.ts": "#A9B84A",
+    "property.defaultLibrary.js": "#A9B84A", 
+    "property.defaultLibrary.ts": "#A9B84A",
     
     // Java
     "class.java": "#B1B4A7",
@@ -1819,13 +1819,14 @@
     "class:svelte": "#a4bb50",
     "enum:svelte": "#5caad4",
     "keyword:svelte": "#FBD549",
+    "type:svelte": "#aecc5a", // darker green for Svelte component part after dot
 
     // Vue
     "variable:vue": "#CDD0CA",
     "property:vue": "#F2E2AE",
     "function:vue": "#36aabf",
     "class:vue": "#e2ff7a",
-    "type:vue": "#5f9985",
+    "type:vue": "#79B39E",
     "keyword:vue": "#d1c082",
     
     // Next.js
@@ -1833,7 +1834,7 @@
     "variable:nextjs": "#CDD0CA",
     
     // SvelteKit (explicit)
-    "variable:sveltekit": "#fff",
+    "variable:sveltekit": "#EAEEE7",
     "property:sveltekit": "#F2E2AE",
     "function:sveltekit": "#F2E2AE",
     "class:sveltekit": "#e2ff7a",
@@ -1844,19 +1845,19 @@
     "property:jsx": "#F2E2AE",
     "function:jsx": "#36aabf",
     "class:jsx": "#e2ff7a",
-    "type:jsx": "#5f9985",
+    "type:jsx": "#79B39E",
     "keyword:jsx": "#d1c082",
     "variable:html": "#CDD0CA",
     "property:html": "#A2A599",
     "function:html": "#36aabf",
     "class:html": "#B1B4A7",
-    "type:html": "#5f9985",
+    "type:html": "#79B39E",
     "keyword:html": "#d1c082",
     
     // --- Accessibility: ensure high contrast for all ---
     "comment": "#A2A599",
     "string": "#E1E4DE",
     "number": "#9BCF23",
-    "builtinType": "#898989"
+    "builtinType": "#A4A79A"
   }
 }
